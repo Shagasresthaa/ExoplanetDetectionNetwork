@@ -1,0 +1,448 @@
+2024-10-09 10:50:42,230 - INFO - TP Data Fetch Initiated......
+2024-10-09 10:50:42,261 - INFO - Querying TP files for TOI: 375059587
+2024-10-09 10:50:45,641 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000375059587-s0027_tess_v1_tp.fits for TOI: 375059587
+2024-10-09 10:50:48,305 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000375059587-s0028_tess_v1_tp.fits for TOI: 375059587
+2024-10-09 10:50:51,686 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000375059587-s0029_tess_v1_tp.fits for TOI: 375059587
+2024-10-09 10:50:54,414 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000375059587-s0030_tess_v1_tp.fits for TOI: 375059587
+2024-10-09 10:50:56,902 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000375059587-s0001_tess_v1_tp.fits for TOI: 375059587
+2024-10-09 10:50:58,903 - INFO - Querying TP files for TOI: 350584963
+2024-10-09 10:51:00,885 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000350584963-s0027_tess_v1_tp.fits for TOI: 350584963
+2024-10-09 10:51:03,554 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000350584963-s0028_tess_v1_tp.fits for TOI: 350584963
+2024-10-09 10:51:06,242 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000350584963-s0029_tess_v1_tp.fits for TOI: 350584963
+2024-10-09 10:51:08,928 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000350584963-s0030_tess_v1_tp.fits for TOI: 350584963
+2024-10-09 10:51:11,425 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000350584963-s0001_tess_v1_tp.fits for TOI: 350584963
+2024-10-09 10:51:13,425 - INFO - Querying TP files for TOI: 349829627
+2024-10-09 10:51:18,131 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000349829627-s0027_tess_v1_tp.fits for TOI: 349829627
+2024-10-09 10:51:20,832 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000349829627-s0028_tess_v1_tp.fits for TOI: 349829627
+2024-10-09 10:51:23,676 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000349829627-s0029_tess_v1_tp.fits for TOI: 349829627
+2024-10-09 10:51:26,406 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000349829627-s0030_tess_v1_tp.fits for TOI: 349829627
+2024-10-09 10:51:28,875 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000349829627-s0001_tess_v1_tp.fits for TOI: 349829627
+2024-10-09 10:51:30,876 - INFO - Querying TP files for TOI: 300710077
+2024-10-09 10:51:32,798 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000300710077-s0027_tess_v1_tp.fits for TOI: 300710077
+2024-10-09 10:51:35,474 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000300710077-s0028_tess_v1_tp.fits for TOI: 300710077
+2024-10-09 10:51:38,144 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000300710077-s0029_tess_v1_tp.fits for TOI: 300710077
+2024-10-09 10:51:40,804 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000300710077-s0030_tess_v1_tp.fits for TOI: 300710077
+2024-10-09 10:51:43,274 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000300710077-s0001_tess_v1_tp.fits for TOI: 300710077
+2024-10-09 10:51:45,275 - INFO - Querying TP files for TOI: 308994098
+2024-10-09 10:51:49,402 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000308994098-s0028_tess_v1_tp.fits for TOI: 308994098
+2024-10-09 10:51:51,849 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000308994098-s0001_tess_v1_tp.fits for TOI: 308994098
+2024-10-09 10:51:54,307 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000308994098-s0004_tess_v1_tp.fits for TOI: 308994098
+2024-10-09 10:51:56,968 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000308994098-s0031_tess_v1_tp.fits for TOI: 308994098
+2024-10-09 10:51:59,654 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000308994098-s0034_tess_v1_tp.fits for TOI: 308994098
+2024-10-09 10:52:01,654 - INFO - Querying TP files for TOI: 306472057
+2024-10-09 10:52:05,571 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000306472057-s0027_tess_v1_tp.fits for TOI: 306472057
+2024-10-09 10:52:08,270 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000306472057-s0028_tess_v1_tp.fits for TOI: 306472057
+2024-10-09 10:52:10,931 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000306472057-s0029_tess_v1_tp.fits for TOI: 306472057
+2024-10-09 10:52:13,671 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000306472057-s0030_tess_v1_tp.fits for TOI: 306472057
+2024-10-09 10:52:16,157 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000306472057-s0001_tess_v1_tp.fits for TOI: 306472057
+2024-10-09 10:52:18,158 - INFO - Querying TP files for TOI: 294780517
+2024-10-09 10:52:23,701 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000294780517-s0027_tess_v1_tp.fits for TOI: 294780517
+2024-10-09 10:52:26,398 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000294780517-s0028_tess_v1_tp.fits for TOI: 294780517
+2024-10-09 10:52:29,086 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000294780517-s0029_tess_v1_tp.fits for TOI: 294780517
+2024-10-09 10:52:31,763 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000294780517-s0030_tess_v1_tp.fits for TOI: 294780517
+2024-10-09 10:52:34,240 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000294780517-s0001_tess_v1_tp.fits for TOI: 294780517
+2024-10-09 10:52:36,241 - INFO - Querying TP files for TOI: 300013921
+2024-10-09 10:52:41,364 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000300013921-s0028_tess_v1_tp.fits for TOI: 300013921
+2024-10-09 10:52:44,541 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000300013921-s0029_tess_v1_tp.fits for TOI: 300013921
+2024-10-09 10:52:47,260 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000300013921-s0030_tess_v1_tp.fits for TOI: 300013921
+2024-10-09 10:52:49,698 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000300013921-s0001_tess_v1_tp.fits for TOI: 300013921
+2024-10-09 10:52:52,151 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000300013921-s0002_tess_v1_tp.fits for TOI: 300013921
+2024-10-09 10:52:54,152 - INFO - Querying TP files for TOI: 299945285
+2024-10-09 10:52:58,476 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000299945285-s0027_tess_v1_tp.fits for TOI: 299945285
+2024-10-09 10:53:01,279 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000299945285-s0028_tess_v1_tp.fits for TOI: 299945285
+2024-10-09 10:53:04,001 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000299945285-s0029_tess_v1_tp.fits for TOI: 299945285
+2024-10-09 10:53:06,707 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000299945285-s0030_tess_v1_tp.fits for TOI: 299945285
+2024-10-09 10:53:09,243 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000299945285-s0002_tess_v1_tp.fits for TOI: 299945285
+2024-10-09 10:53:11,244 - INFO - Querying TP files for TOI: 278895705
+2024-10-09 10:53:15,479 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000278895705-s0027_tess_v1_tp.fits for TOI: 278895705
+2024-10-09 10:53:18,200 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000278895705-s0028_tess_v1_tp.fits for TOI: 278895705
+2024-10-09 10:53:20,896 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000278895705-s0029_tess_v1_tp.fits for TOI: 278895705
+2024-10-09 10:53:23,605 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000278895705-s0030_tess_v1_tp.fits for TOI: 278895705
+2024-10-09 10:53:26,050 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000278895705-s0001_tess_v1_tp.fits for TOI: 278895705
+2024-10-09 10:53:28,050 - INFO - Querying TP files for TOI: 277099925
+2024-10-09 10:53:34,042 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000277099925-s0027_tess_v1_tp.fits for TOI: 277099925
+2024-10-09 10:53:36,722 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000277099925-s0028_tess_v1_tp.fits for TOI: 277099925
+2024-10-09 10:53:39,426 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000277099925-s0029_tess_v1_tp.fits for TOI: 277099925
+2024-10-09 10:53:42,111 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000277099925-s0030_tess_v1_tp.fits for TOI: 277099925
+2024-10-09 10:53:45,176 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000277099925-s0001_tess_v1_tp.fits for TOI: 277099925
+2024-10-09 10:53:47,177 - INFO - Querying TP files for TOI: 271596225
+2024-10-09 10:53:58,249 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000271596225-s0027_tess_v1_tp.fits for TOI: 271596225
+2024-10-09 10:54:01,073 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000271596225-s0028_tess_v1_tp.fits for TOI: 271596225
+2024-10-09 10:54:03,746 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000271596225-s0029_tess_v1_tp.fits for TOI: 271596225
+2024-10-09 10:54:06,441 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000271596225-s0030_tess_v1_tp.fits for TOI: 271596225
+2024-10-09 10:54:08,990 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000271596225-s0001_tess_v1_tp.fits for TOI: 271596225
+2024-10-09 10:54:10,991 - INFO - Querying TP files for TOI: 260640693
+2024-10-09 10:54:16,184 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000260640693-s0028_tess_v1_tp.fits for TOI: 260640693
+2024-10-09 10:54:18,839 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000260640693-s0029_tess_v1_tp.fits for TOI: 260640693
+2024-10-09 10:54:21,542 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000260640693-s0030_tess_v1_tp.fits for TOI: 260640693
+2024-10-09 10:54:23,999 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000260640693-s0001_tess_v1_tp.fits for TOI: 260640693
+2024-10-09 10:54:26,472 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000260640693-s0004_tess_v1_tp.fits for TOI: 260640693
+2024-10-09 10:54:28,473 - INFO - Querying TP files for TOI: 255685030
+2024-10-09 10:54:31,627 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000255685030-s0002_tess_v1_tp.fits for TOI: 255685030
+2024-10-09 10:54:34,100 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000255685030-s0005_tess_v1_tp.fits for TOI: 255685030
+2024-10-09 10:54:36,517 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000255685030-s0006_tess_v1_tp.fits for TOI: 255685030
+2024-10-09 10:54:39,180 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000255685030-s0032_tess_v1_tp.fits for TOI: 255685030
+2024-10-09 10:54:41,842 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000255685030-s0034_tess_v1_tp.fits for TOI: 255685030
+2024-10-09 10:54:43,843 - INFO - Querying TP files for TOI: 179308757
+2024-10-09 10:54:47,133 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000179308757-s0027_tess_v1_tp.fits for TOI: 179308757
+2024-10-09 10:54:49,929 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000179308757-s0029_tess_v1_tp.fits for TOI: 179308757
+2024-10-09 10:54:52,579 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000179308757-s0030_tess_v1_tp.fits for TOI: 179308757
+2024-10-09 10:54:55,023 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000179308757-s0002_tess_v1_tp.fits for TOI: 179308757
+2024-10-09 10:54:57,509 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000179308757-s0003_tess_v1_tp.fits for TOI: 179308757
+2024-10-09 10:54:59,510 - INFO - Querying TP files for TOI: 177258735
+2024-10-09 10:55:05,971 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000177258735-s0027_tess_v1_tp.fits for TOI: 177258735
+2024-10-09 10:55:08,799 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000177258735-s0028_tess_v1_tp.fits for TOI: 177258735
+2024-10-09 10:55:11,537 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000177258735-s0029_tess_v1_tp.fits for TOI: 177258735
+2024-10-09 10:55:14,428 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000177258735-s0030_tess_v1_tp.fits for TOI: 177258735
+2024-10-09 10:55:16,965 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000177258735-s0001_tess_v1_tp.fits for TOI: 177258735
+2024-10-09 10:55:18,966 - INFO - Querying TP files for TOI: 167303382
+2024-10-09 10:55:25,374 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000167303382-s0027_tess_v1_tp.fits for TOI: 167303382
+2024-10-09 10:55:28,079 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000167303382-s0028_tess_v1_tp.fits for TOI: 167303382
+2024-10-09 10:55:30,821 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000167303382-s0029_tess_v1_tp.fits for TOI: 167303382
+2024-10-09 10:55:33,567 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000167303382-s0030_tess_v1_tp.fits for TOI: 167303382
+2024-10-09 10:55:36,032 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000167303382-s0001_tess_v1_tp.fits for TOI: 167303382
+2024-10-09 10:55:38,033 - INFO - Querying TP files for TOI: 143526444
+2024-10-09 10:55:44,062 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000143526444-s0034_tess_v1_tp.fits for TOI: 143526444
+2024-10-09 10:55:46,515 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000143526444-s0007_tess_v1_tp.fits for TOI: 143526444
+2024-10-09 10:55:48,986 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000143526444-s0008_tess_v1_tp.fits for TOI: 143526444
+2024-10-09 10:55:52,360 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000143526444-s0061_tess_v1_tp.fits for TOI: 143526444
+2024-10-09 10:55:56,348 - INFO - Downloaded additional TP file: tess2021014023720-s0034-0000000143526444-0204-s_tp.fits for TOI: 143526444
+2024-10-09 10:55:58,349 - INFO - Querying TP files for TOI: 41227743
+2024-10-09 10:56:07,505 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000041227743-s0027_tess_v1_tp.fits for TOI: 41227743
+2024-10-09 10:56:10,197 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000041227743-s0028_tess_v1_tp.fits for TOI: 41227743
+2024-10-09 10:56:12,918 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000041227743-s0030_tess_v1_tp.fits for TOI: 41227743
+2024-10-09 10:56:15,392 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000041227743-s0001_tess_v1_tp.fits for TOI: 41227743
+2024-10-09 10:56:17,845 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000041227743-s0002_tess_v1_tp.fits for TOI: 41227743
+2024-10-09 10:56:19,846 - INFO - Querying TP files for TOI: 38460940
+2024-10-09 10:56:22,600 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000038460940-s0027_tess_v1_tp.fits for TOI: 38460940
+2024-10-09 10:56:25,366 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000038460940-s0028_tess_v1_tp.fits for TOI: 38460940
+2024-10-09 10:56:28,065 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000038460940-s0029_tess_v1_tp.fits for TOI: 38460940
+2024-10-09 10:56:30,743 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000038460940-s0030_tess_v1_tp.fits for TOI: 38460940
+2024-10-09 10:56:33,331 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000038460940-s0001_tess_v1_tp.fits for TOI: 38460940
+2024-10-09 10:56:35,331 - INFO - Querying TP files for TOI: 33831980
+2024-10-09 10:56:46,454 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000033831980-s0027_tess_v1_tp.fits for TOI: 33831980
+2024-10-09 10:56:49,099 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000033831980-s0028_tess_v1_tp.fits for TOI: 33831980
+2024-10-09 10:56:51,809 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000033831980-s0029_tess_v1_tp.fits for TOI: 33831980
+2024-10-09 10:56:54,235 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000033831980-s0001_tess_v1_tp.fits for TOI: 33831980
+2024-10-09 10:56:56,693 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000033831980-s0002_tess_v1_tp.fits for TOI: 33831980
+2024-10-09 10:56:58,694 - INFO - Querying TP files for TOI: 30853470
+2024-10-09 10:57:07,837 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030853470-s0027_tess_v1_tp.fits for TOI: 30853470
+2024-10-09 10:57:10,475 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030853470-s0028_tess_v1_tp.fits for TOI: 30853470
+2024-10-09 10:57:13,214 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030853470-s0029_tess_v1_tp.fits for TOI: 30853470
+2024-10-09 10:57:15,889 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030853470-s0030_tess_v1_tp.fits for TOI: 30853470
+2024-10-09 10:57:18,339 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030853470-s0001_tess_v1_tp.fits for TOI: 30853470
+2024-10-09 10:57:20,339 - INFO - Querying TP files for TOI: 30122649
+2024-10-09 10:57:22,474 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030122649-s0008_tess_v1_tp.fits for TOI: 30122649
+2024-10-09 10:57:24,924 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030122649-s0009_tess_v1_tp.fits for TOI: 30122649
+2024-10-09 10:57:27,608 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030122649-s0035_tess_v1_tp.fits for TOI: 30122649
+2024-10-09 10:57:30,309 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030122649-s0036_tess_v1_tp.fits for TOI: 30122649
+2024-10-09 10:57:34,422 - INFO - Downloaded additional TP file: tess2021039152502-s0035-0000000030122649-0205-s_tp.fits for TOI: 30122649
+2024-10-09 10:57:36,422 - INFO - Querying TP files for TOI: 149301575
+2024-10-09 10:57:43,670 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000149301575-s0027_tess_v1_tp.fits for TOI: 149301575
+2024-10-09 10:57:46,355 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000149301575-s0028_tess_v1_tp.fits for TOI: 149301575
+2024-10-09 10:57:48,987 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000149301575-s0029_tess_v1_tp.fits for TOI: 149301575
+2024-10-09 10:57:51,665 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000149301575-s0030_tess_v1_tp.fits for TOI: 149301575
+2024-10-09 10:57:54,148 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000149301575-s0001_tess_v1_tp.fits for TOI: 149301575
+2024-10-09 10:57:56,149 - INFO - Querying TP files for TOI: 388106759
+2024-10-09 10:58:04,668 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000388106759-s0027_tess_v1_tp.fits for TOI: 388106759
+2024-10-09 10:58:07,369 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000388106759-s0028_tess_v1_tp.fits for TOI: 388106759
+2024-10-09 10:58:10,051 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000388106759-s0029_tess_v1_tp.fits for TOI: 388106759
+2024-10-09 10:58:12,728 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000388106759-s0030_tess_v1_tp.fits for TOI: 388106759
+2024-10-09 10:58:15,206 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000388106759-s0001_tess_v1_tp.fits for TOI: 388106759
+2024-10-09 10:58:17,207 - INFO - Querying TP files for TOI: 100757807
+2024-10-09 10:58:18,925 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000100757807-s0032_tess_v1_tp.fits for TOI: 100757807
+2024-10-09 10:58:21,612 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000100757807-s0033_tess_v1_tp.fits for TOI: 100757807
+2024-10-09 10:58:25,914 - INFO - Downloaded additional TP file: tess2020324010417-s0032-0000000100757807-0200-s_tp.fits for TOI: 100757807
+2024-10-09 10:58:30,047 - INFO - Downloaded additional TP file: tess2020351194500-s0033-0000000100757807-0203-s_tp.fits for TOI: 100757807
+2024-10-09 10:58:32,048 - INFO - Querying TP files for TOI: 363914762
+2024-10-09 10:58:33,785 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000363914762-s0005_tess_v1_tp.fits for TOI: 363914762
+2024-10-09 10:58:36,477 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000363914762-s0032_tess_v1_tp.fits for TOI: 363914762
+2024-10-09 10:58:39,159 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000363914762-s0034_tess_v1_tp.fits for TOI: 363914762
+2024-10-09 10:58:41,970 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000363914762-s0033_tess_v1_tp.fits for TOI: 363914762
+2024-10-09 10:58:46,097 - INFO - Downloaded additional TP file: tess2020324010417-s0032-0000000363914762-0200-s_tp.fits for TOI: 363914762
+2024-10-09 10:58:48,097 - INFO - Querying TP files for TOI: 55525572
+2024-10-09 10:58:57,095 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000055525572-s0027_tess_v1_tp.fits for TOI: 55525572
+2024-10-09 10:58:59,796 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000055525572-s0028_tess_v1_tp.fits for TOI: 55525572
+2024-10-09 10:59:02,510 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000055525572-s0029_tess_v1_tp.fits for TOI: 55525572
+2024-10-09 10:59:05,225 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000055525572-s0030_tess_v1_tp.fits for TOI: 55525572
+2024-10-09 10:59:07,722 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000055525572-s0001_tess_v1_tp.fits for TOI: 55525572
+2024-10-09 10:59:09,723 - INFO - Querying TP files for TOI: 255760319
+2024-10-09 10:59:11,565 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000255760319-s0029_tess_v1_tp.fits for TOI: 255760319
+2024-10-09 10:59:14,027 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000255760319-s0002_tess_v1_tp.fits for TOI: 255760319
+2024-10-09 10:59:16,594 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000255760319-s0005_tess_v1_tp.fits for TOI: 255760319
+2024-10-09 10:59:19,010 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000255760319-s0006_tess_v1_tp.fits for TOI: 255760319
+2024-10-09 10:59:21,667 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000255760319-s0032_tess_v1_tp.fits for TOI: 255760319
+2024-10-09 10:59:23,668 - INFO - Querying TP files for TOI: 102840239
+2024-10-09 10:59:26,360 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000102840239-s0009_tess_v1_tp.fits for TOI: 102840239
+2024-10-09 10:59:29,040 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000102840239-s0036_tess_v1_tp.fits for TOI: 102840239
+2024-10-09 10:59:32,477 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000102840239-s0063_tess_v1_tp.fits for TOI: 102840239
+2024-10-09 10:59:36,382 - INFO - Downloaded additional TP file: tess2021065132309-s0036-0000000102840239-0207-s_tp.fits for TOI: 102840239
+2024-10-09 10:59:40,321 - INFO - Downloaded additional TP file: tess2023069172124-s0063-0000000102840239-0255-s_tp.fits for TOI: 102840239
+2024-10-09 10:59:42,322 - INFO - Querying TP files for TOI: 175180796
+2024-10-09 10:59:48,601 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000175180796-s0034_tess_v1_tp.fits for TOI: 175180796
+2024-10-09 10:59:51,065 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000175180796-s0007_tess_v1_tp.fits for TOI: 175180796
+2024-10-09 10:59:53,526 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000175180796-s0008_tess_v1_tp.fits for TOI: 175180796
+2024-10-09 10:59:57,525 - INFO - Downloaded additional TP file: tess2021014023720-s0034-0000000175180796-0204-s_tp.fits for TOI: 175180796
+2024-10-09 11:00:01,358 - INFO - Downloaded additional TP file: tess2019006130736-s0007-0000000175180796-0131-s_tp.fits for TOI: 175180796
+2024-10-09 11:00:03,359 - INFO - Querying TP files for TOI: 30312676
+2024-10-09 11:00:12,298 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030312676-s0027_tess_v1_tp.fits for TOI: 30312676
+2024-10-09 11:00:14,947 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030312676-s0028_tess_v1_tp.fits for TOI: 30312676
+2024-10-09 11:00:17,619 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030312676-s0029_tess_v1_tp.fits for TOI: 30312676
+2024-10-09 11:00:20,341 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030312676-s0030_tess_v1_tp.fits for TOI: 30312676
+2024-10-09 11:00:22,823 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000030312676-s0001_tess_v1_tp.fits for TOI: 30312676
+2024-10-09 11:00:24,825 - INFO - Querying TP files for TOI: 46096489
+2024-10-09 11:00:26,498 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000046096489-s0011_tess_v1_tp.fits for TOI: 46096489
+2024-10-09 11:00:30,500 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000046096489-0143-s_tp.fits for TOI: 46096489
+2024-10-09 11:00:32,501 - INFO - Querying TP files for TOI: 73717937
+2024-10-09 11:00:36,322 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000073717937-s0010_tess_v1_tp.fits for TOI: 73717937
+2024-10-09 11:00:38,769 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000073717937-s0011_tess_v1_tp.fits for TOI: 73717937
+2024-10-09 11:00:41,466 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000073717937-s0037_tess_v1_tp.fits for TOI: 73717937
+2024-10-09 11:00:44,918 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000073717937-s0064_tess_v1_tp.fits for TOI: 73717937
+2024-10-09 11:00:48,851 - INFO - Downloaded additional TP file: tess2021091135823-s0037-0000000073717937-0208-s_tp.fits for TOI: 73717937
+2024-10-09 11:00:50,852 - INFO - Querying TP files for TOI: 111991770
+2024-10-09 11:00:53,831 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000111991770-s0011_tess_v1_tp.fits for TOI: 111991770
+2024-10-09 11:00:58,923 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000111991770-0143-s_tp.fits for TOI: 111991770
+2024-10-09 11:01:00,923 - INFO - Querying TP files for TOI: 125405602
+2024-10-09 11:01:02,737 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000125405602-s0011_tess_v1_tp.fits for TOI: 125405602
+2024-10-09 11:01:05,411 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000125405602-s0037_tess_v1_tp.fits for TOI: 125405602
+2024-10-09 11:01:08,775 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000125405602-s0064_tess_v1_tp.fits for TOI: 125405602
+2024-10-09 11:01:12,954 - INFO - Downloaded additional TP file: tess2021091135823-s0037-0000000125405602-0208-s_tp.fits for TOI: 125405602
+2024-10-09 11:01:18,202 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000125405602-0143-s_tp.fits for TOI: 125405602
+2024-10-09 11:01:20,203 - INFO - Querying TP files for TOI: 127530399
+2024-10-09 11:01:21,979 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000127530399-s0011_tess_v1_tp.fits for TOI: 127530399
+2024-10-09 11:01:25,106 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000127530399-s0038_tess_v1_tp.fits for TOI: 127530399
+2024-10-09 11:01:28,601 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000127530399-s0065_tess_v1_tp.fits for TOI: 127530399
+2024-10-09 11:01:33,267 - INFO - Downloaded additional TP file: tess2021118034608-s0038-0000000127530399-0209-s_tp.fits for TOI: 127530399
+2024-10-09 11:01:38,103 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000127530399-0143-s_tp.fits for TOI: 127530399
+2024-10-09 11:01:40,104 - INFO - Querying TP files for TOI: 158978373
+2024-10-09 11:01:42,823 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000158978373-s0011_tess_v1_tp.fits for TOI: 158978373
+2024-10-09 11:01:45,961 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000158978373-s0038_tess_v1_tp.fits for TOI: 158978373
+2024-10-09 11:01:49,628 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000158978373-s0065_tess_v1_tp.fits for TOI: 158978373
+2024-10-09 11:01:53,794 - INFO - Downloaded additional TP file: tess2021118034608-s0038-0000000158978373-0209-s_tp.fits for TOI: 158978373
+2024-10-09 11:01:58,560 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000158978373-0143-s_tp.fits for TOI: 158978373
+2024-10-09 11:02:00,560 - INFO - Querying TP files for TOI: 193641523
+2024-10-09 11:02:02,480 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000193641523-s0011_tess_v1_tp.fits for TOI: 193641523
+2024-10-09 11:02:04,951 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000193641523-s0012_tess_v1_tp.fits for TOI: 193641523
+2024-10-09 11:02:07,616 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000193641523-s0038_tess_v1_tp.fits for TOI: 193641523
+2024-10-09 11:02:11,032 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000193641523-s0065_tess_v1_tp.fits for TOI: 193641523
+2024-10-09 11:02:15,162 - INFO - Downloaded additional TP file: tess2021118034608-s0038-0000000193641523-0209-s_tp.fits for TOI: 193641523
+2024-10-09 11:02:17,163 - INFO - Querying TP files for TOI: 220029715
+2024-10-09 11:02:19,700 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000220029715-s0011_tess_v1_tp.fits for TOI: 220029715
+2024-10-09 11:02:22,392 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000220029715-s0037_tess_v1_tp.fits for TOI: 220029715
+2024-10-09 11:02:25,832 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000220029715-s0064_tess_v1_tp.fits for TOI: 220029715
+2024-10-09 11:02:29,995 - INFO - Downloaded additional TP file: tess2021091135823-s0037-0000000220029715-0208-s_tp.fits for TOI: 220029715
+2024-10-09 11:02:34,071 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000220029715-0143-s_tp.fits for TOI: 220029715
+2024-10-09 11:02:36,072 - INFO - Querying TP files for TOI: 243200602
+2024-10-09 11:02:38,222 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000243200602-s0011_tess_v1_tp.fits for TOI: 243200602
+2024-10-09 11:02:41,176 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000243200602-s0037_tess_v1_tp.fits for TOI: 243200602
+2024-10-09 11:02:44,542 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000243200602-s0064_tess_v1_tp.fits for TOI: 243200602
+2024-10-09 11:02:48,775 - INFO - Downloaded additional TP file: tess2021091135823-s0037-0000000243200602-0208-s_tp.fits for TOI: 243200602
+2024-10-09 11:02:52,924 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000243200602-0143-s_tp.fits for TOI: 243200602
+2024-10-09 11:02:54,925 - INFO - Querying TP files for TOI: 270507305
+2024-10-09 11:02:57,067 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000270507305-s0027_tess_v1_tp.fits for TOI: 270507305
+2024-10-09 11:02:59,729 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000270507305-s0028_tess_v1_tp.fits for TOI: 270507305
+2024-10-09 11:03:02,191 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000270507305-s0001_tess_v1_tp.fits for TOI: 270507305
+2024-10-09 11:03:04,735 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000270507305-s0004_tess_v1_tp.fits for TOI: 270507305
+2024-10-09 11:03:07,420 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000270507305-s0031_tess_v1_tp.fits for TOI: 270507305
+2024-10-09 11:03:09,421 - INFO - Querying TP files for TOI: 271168962
+2024-10-09 11:03:11,867 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000271168962-s0011_tess_v1_tp.fits for TOI: 271168962
+2024-10-09 11:03:16,156 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000271168962-s0064_tess_v1_tp.fits for TOI: 271168962
+2024-10-09 11:03:20,437 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000271168962-0143-s_tp.fits for TOI: 271168962
+2024-10-09 11:03:24,612 - INFO - Downloaded additional TP file: tess2023096110322-s0064-0000000271168962-0257-s_tp.fits for TOI: 271168962
+2024-10-09 11:03:26,613 - INFO - Querying TP files for TOI: 276128561
+2024-10-09 11:03:28,548 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000276128561-s0011_tess_v1_tp.fits for TOI: 276128561
+2024-10-09 11:03:31,251 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000276128561-s0038_tess_v1_tp.fits for TOI: 276128561
+2024-10-09 11:03:35,313 - INFO - Downloaded additional TP file: tess2021118034608-s0038-0000000276128561-0209-s_tp.fits for TOI: 276128561
+2024-10-09 11:03:39,536 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000276128561-0143-s_tp.fits for TOI: 276128561
+2024-10-09 11:03:41,537 - INFO - Querying TP files for TOI: 281924357
+2024-10-09 11:03:45,116 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000281924357-s0003_tess_v1_tp.fits for TOI: 281924357
+2024-10-09 11:03:47,535 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000281924357-s0006_tess_v1_tp.fits for TOI: 281924357
+2024-10-09 11:03:50,210 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000281924357-s0033_tess_v1_tp.fits for TOI: 281924357
+2024-10-09 11:03:52,667 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000281924357-s0010_tess_v1_tp.fits for TOI: 281924357
+2024-10-09 11:03:55,261 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000281924357-s0011_tess_v1_tp.fits for TOI: 281924357
+2024-10-09 11:03:57,262 - INFO - Querying TP files for TOI: 307610438
+2024-10-09 11:04:00,900 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000307610438-s0011_tess_v1_tp.fits for TOI: 307610438
+2024-10-09 11:04:03,597 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000307610438-s0038_tess_v1_tp.fits for TOI: 307610438
+2024-10-09 11:04:07,056 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000307610438-s0065_tess_v1_tp.fits for TOI: 307610438
+2024-10-09 11:04:11,257 - INFO - Downloaded additional TP file: tess2021118034608-s0038-0000000307610438-0209-s_tp.fits for TOI: 307610438
+2024-10-09 11:04:15,853 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000307610438-0143-s_tp.fits for TOI: 307610438
+2024-10-09 11:04:17,854 - INFO - Querying TP files for TOI: 350332997
+2024-10-09 11:04:22,687 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000350332997-s0027_tess_v1_tp.fits for TOI: 350332997
+2024-10-09 11:04:25,364 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000350332997-s0028_tess_v1_tp.fits for TOI: 350332997
+2024-10-09 11:04:28,062 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000350332997-s0030_tess_v1_tp.fits for TOI: 350332997
+2024-10-09 11:04:30,766 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000350332997-s0032_tess_v1_tp.fits for TOI: 350332997
+2024-10-09 11:04:33,502 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000350332997-s0031_tess_v1_tp.fits for TOI: 350332997
+2024-10-09 11:04:35,503 - INFO - Querying TP files for TOI: 362249359
+2024-10-09 11:04:38,636 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000362249359-s0009_tess_v1_tp.fits for TOI: 362249359
+2024-10-09 11:04:41,080 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000362249359-s0010_tess_v1_tp.fits for TOI: 362249359
+2024-10-09 11:04:43,591 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000362249359-s0011_tess_v1_tp.fits for TOI: 362249359
+2024-10-09 11:04:46,292 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000362249359-s0036_tess_v1_tp.fits for TOI: 362249359
+2024-10-09 11:04:49,051 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000362249359-s0037_tess_v1_tp.fits for TOI: 362249359
+2024-10-09 11:04:51,052 - INFO - Querying TP files for TOI: 404340025
+2024-10-09 11:04:53,488 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000404340025-s0011_tess_v1_tp.fits for TOI: 404340025
+2024-10-09 11:04:56,172 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000404340025-s0037_tess_v1_tp.fits for TOI: 404340025
+2024-10-09 11:04:58,877 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000404340025-s0038_tess_v1_tp.fits for TOI: 404340025
+2024-10-09 11:05:02,395 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000404340025-s0064_tess_v1_tp.fits for TOI: 404340025
+2024-10-09 11:05:06,504 - INFO - Downloaded additional TP file: tess2021091135823-s0037-0000000404340025-0208-s_tp.fits for TOI: 404340025
+2024-10-09 11:05:08,505 - INFO - Querying TP files for TOI: 405700729
+2024-10-09 11:05:10,582 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000405700729-s0011_tess_v1_tp.fits for TOI: 405700729
+2024-10-09 11:05:13,340 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000405700729-s0037_tess_v1_tp.fits for TOI: 405700729
+2024-10-09 11:05:16,490 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000405700729-s0038_tess_v1_tp.fits for TOI: 405700729
+2024-10-09 11:05:19,922 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000405700729-s0064_tess_v1_tp.fits for TOI: 405700729
+2024-10-09 11:05:24,105 - INFO - Downloaded additional TP file: tess2021091135823-s0037-0000000405700729-0208-s_tp.fits for TOI: 405700729
+2024-10-09 11:05:26,106 - INFO - Querying TP files for TOI: 440887364
+2024-10-09 11:05:28,672 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000440887364-s0011_tess_v1_tp.fits for TOI: 440887364
+2024-10-09 11:05:31,508 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000440887364-s0038_tess_v1_tp.fits for TOI: 440887364
+2024-10-09 11:05:35,657 - INFO - Downloaded additional TP file: tess2021118034608-s0038-0000000440887364-0209-s_tp.fits for TOI: 440887364
+2024-10-09 11:05:40,381 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000440887364-0143-s_tp.fits for TOI: 440887364
+2024-10-09 11:05:42,382 - INFO - Querying TP files for TOI: 460205581
+2024-10-09 11:05:45,719 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000460205581-s0010_tess_v1_tp.fits for TOI: 460205581
+2024-10-09 11:05:48,252 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000460205581-s0011_tess_v1_tp.fits for TOI: 460205581
+2024-10-09 11:05:50,906 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000460205581-s0037_tess_v1_tp.fits for TOI: 460205581
+2024-10-09 11:05:53,576 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000460205581-s0038_tess_v1_tp.fits for TOI: 460205581
+2024-10-09 11:05:57,194 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000460205581-s0063_tess_v1_tp.fits for TOI: 460205581
+2024-10-09 11:05:59,195 - INFO - Querying TP files for TOI: 461271719
+2024-10-09 11:06:02,407 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000461271719-s0011_tess_v1_tp.fits for TOI: 461271719
+2024-10-09 11:06:05,157 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000461271719-s0037_tess_v1_tp.fits for TOI: 461271719
+2024-10-09 11:06:08,499 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000461271719-s0064_tess_v1_tp.fits for TOI: 461271719
+2024-10-09 11:06:12,473 - INFO - Downloaded additional TP file: tess2021091135823-s0037-0000000461271719-0208-s_tp.fits for TOI: 461271719
+2024-10-09 11:06:16,849 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000461271719-0143-s_tp.fits for TOI: 461271719
+2024-10-09 11:06:18,849 - INFO - Querying TP files for TOI: 466840711
+2024-10-09 11:06:25,508 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000466840711-s0010_tess_v1_tp.fits for TOI: 466840711
+2024-10-09 11:06:27,977 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000466840711-s0011_tess_v1_tp.fits for TOI: 466840711
+2024-10-09 11:06:30,718 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000466840711-s0037_tess_v1_tp.fits for TOI: 466840711
+2024-10-09 11:06:34,211 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000466840711-s0064_tess_v1_tp.fits for TOI: 466840711
+2024-10-09 11:06:38,585 - INFO - Downloaded additional TP file: tess2021091135823-s0037-0000000466840711-0208-s_tp.fits for TOI: 466840711
+2024-10-09 11:06:40,586 - INFO - Querying TP files for TOI: 287563610
+2024-10-09 11:06:44,831 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000287563610-s0011_tess_v1_tp.fits for TOI: 287563610
+2024-10-09 11:06:47,528 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000287563610-s0037_tess_v1_tp.fits for TOI: 287563610
+2024-10-09 11:06:50,925 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000287563610-s0064_tess_v1_tp.fits for TOI: 287563610
+2024-10-09 11:06:54,928 - INFO - Downloaded additional TP file: tess2021091135823-s0037-0000000287563610-0208-s_tp.fits for TOI: 287563610
+2024-10-09 11:06:59,044 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000287563610-0143-s_tp.fits for TOI: 287563610
+2024-10-09 11:07:01,045 - INFO - Querying TP files for TOI: 238932509
+2024-10-09 11:07:14,603 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000238932509-s0028_tess_v1_tp.fits for TOI: 238932509
+2024-10-09 11:07:17,300 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000238932509-s0032_tess_v1_tp.fits for TOI: 238932509
+2024-10-09 11:07:20,066 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000238932509-s0031_tess_v1_tp.fits for TOI: 238932509
+2024-10-09 11:07:22,755 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000238932509-s0034_tess_v1_tp.fits for TOI: 238932509
+2024-10-09 11:07:25,449 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000238932509-s0033_tess_v1_tp.fits for TOI: 238932509
+2024-10-09 11:07:27,450 - INFO - Querying TP files for TOI: 141768070
+2024-10-09 11:07:44,587 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000141768070-s0027_tess_v1_tp.fits for TOI: 141768070
+2024-10-09 11:07:47,360 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000141768070-s0028_tess_v1_tp.fits for TOI: 141768070
+2024-10-09 11:07:50,106 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000141768070-s0029_tess_v1_tp.fits for TOI: 141768070
+2024-10-09 11:07:52,780 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000141768070-s0030_tess_v1_tp.fits for TOI: 141768070
+2024-10-09 11:07:55,329 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000141768070-s0001_tess_v1_tp.fits for TOI: 141768070
+2024-10-09 11:07:57,329 - INFO - Querying TP files for TOI: 437333618
+2024-10-09 11:08:09,009 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000437333618-s0011_tess_v1_tp.fits for TOI: 437333618
+2024-10-09 11:08:11,681 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000437333618-s0037_tess_v1_tp.fits for TOI: 437333618
+2024-10-09 11:08:15,339 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000437333618-s0064_tess_v1_tp.fits for TOI: 437333618
+2024-10-09 11:08:19,574 - INFO - Downloaded additional TP file: tess2021091135823-s0037-0000000437333618-0208-s_tp.fits for TOI: 437333618
+2024-10-09 11:08:23,760 - INFO - Downloaded additional TP file: tess2019112060037-s0011-0000000437333618-0143-s_tp.fits for TOI: 437333618
+2024-10-09 11:08:25,761 - INFO - Querying TP files for TOI: 380886535
+2024-10-09 11:08:29,128 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000380886535-s0030_tess_v1_tp.fits for TOI: 380886535
+2024-10-09 11:08:31,587 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000380886535-s0003_tess_v1_tp.fits for TOI: 380886535
+2024-10-09 11:08:34,246 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000380886535-s0042_tess_v1_tp.fits for TOI: 380886535
+2024-10-09 11:08:36,926 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000380886535-s0043_tess_v1_tp.fits for TOI: 380886535
+2024-10-09 11:08:40,284 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000380886535-s0070_tess_v1_tp.fits for TOI: 380886535
+2024-10-09 11:08:42,285 - INFO - Querying TP files for TOI: 32283946
+2024-10-09 11:08:44,757 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000032283946-s0030_tess_v1_tp.fits for TOI: 32283946
+2024-10-09 11:08:47,236 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000032283946-s0003_tess_v1_tp.fits for TOI: 32283946
+2024-10-09 11:08:51,367 - INFO - Downloaded additional TP file: tess2020266004630-s0030-0000000032283946-0195-s_tp.fits for TOI: 32283946
+2024-10-09 11:08:53,368 - INFO - Querying TP files for TOI: 229141709
+2024-10-09 11:08:59,182 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000229141709-s0029_tess_v1_tp.fits for TOI: 229141709
+2024-10-09 11:09:03,637 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000229141709-s0030_tess_v1_tp.fits for TOI: 229141709
+2024-10-09 11:09:06,640 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000229141709-s0002_tess_v1_tp.fits for TOI: 229141709
+2024-10-09 11:09:09,112 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000229141709-s0003_tess_v1_tp.fits for TOI: 229141709
+2024-10-09 11:09:12,399 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000229141709-s0069_tess_v1_tp.fits for TOI: 229141709
+2024-10-09 11:09:14,399 - INFO - Querying TP files for TOI: 231289421
+2024-10-09 11:09:19,065 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000231289421-s0030_tess_v1_tp.fits for TOI: 231289421
+2024-10-09 11:09:22,552 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000231289421-s0069_tess_v1_tp.fits for TOI: 231289421
+2024-10-09 11:09:26,729 - INFO - Downloaded additional TP file: tess2020266004630-s0030-0000000231289421-0195-s_tp.fits for TOI: 231289421
+2024-10-09 11:09:30,937 - INFO - Downloaded additional TP file: tess2023237165326-s0069-0000000231289421-0264-s_tp.fits for TOI: 231289421
+2024-10-09 11:09:32,938 - INFO - Querying TP files for TOI: 42015200
+2024-10-09 11:09:36,685 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000042015200-s0029_tess_v1_tp.fits for TOI: 42015200
+2024-10-09 11:09:39,351 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000042015200-s0030_tess_v1_tp.fits for TOI: 42015200
+2024-10-09 11:09:43,366 - INFO - Downloaded additional TP file: tess2020238165205-s0029-0000000042015200-0193-s_tp.fits for TOI: 42015200
+2024-10-09 11:09:47,548 - INFO - Downloaded additional TP file: tess2020266004630-s0030-0000000042015200-0195-s_tp.fits for TOI: 42015200
+2024-10-09 11:09:49,548 - INFO - Querying TP files for TOI: 423670610
+2024-10-09 11:10:03,695 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000423670610-s0030_tess_v1_tp.fits for TOI: 423670610
+2024-10-09 11:10:06,198 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000423670610-s0003_tess_v1_tp.fits for TOI: 423670610
+2024-10-09 11:10:10,259 - INFO - Downloaded additional TP file: tess2020266004630-s0030-0000000423670610-0195-s_tp.fits for TOI: 423670610
+2024-10-09 11:10:12,260 - INFO - Querying TP files for TOI: 40083958
+2024-10-09 11:10:15,450 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000040083958-s0030_tess_v1_tp.fits for TOI: 40083958
+2024-10-09 11:10:17,898 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000040083958-s0003_tess_v1_tp.fits for TOI: 40083958
+2024-10-09 11:10:22,103 - INFO - Downloaded additional TP file: tess2020266004630-s0030-0000000040083958-0195-s_tp.fits for TOI: 40083958
+2024-10-09 11:10:24,103 - INFO - Querying TP files for TOI: 29918916
+2024-10-09 11:10:26,874 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000029918916-s0030_tess_v1_tp.fits for TOI: 29918916
+2024-10-09 11:10:29,436 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000029918916-s0003_tess_v1_tp.fits for TOI: 29918916
+2024-10-09 11:10:33,499 - INFO - Downloaded additional TP file: tess2020266004630-s0030-0000000029918916-0195-s_tp.fits for TOI: 29918916
+2024-10-09 11:10:35,500 - INFO - Querying TP files for TOI: 138727432
+2024-10-09 11:10:39,338 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000138727432-s0030_tess_v1_tp.fits for TOI: 138727432
+2024-10-09 11:10:41,782 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000138727432-s0003_tess_v1_tp.fits for TOI: 138727432
+2024-10-09 11:10:45,962 - INFO - Downloaded additional TP file: tess2020266004630-s0030-0000000138727432-0195-s_tp.fits for TOI: 138727432
+2024-10-09 11:10:47,962 - INFO - Querying TP files for TOI: 160222069
+2024-10-09 11:10:50,626 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000160222069-s0029_tess_v1_tp.fits for TOI: 160222069
+2024-10-09 11:10:53,435 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000160222069-s0030_tess_v1_tp.fits for TOI: 160222069
+2024-10-09 11:10:55,891 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000160222069-s0003_tess_v1_tp.fits for TOI: 160222069
+2024-10-09 11:10:59,261 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000160222069-s0069_tess_v1_tp.fits for TOI: 160222069
+2024-10-09 11:11:03,516 - INFO - Downloaded additional TP file: tess2020238165205-s0029-0000000160222069-0193-s_tp.fits for TOI: 160222069
+2024-10-09 11:11:05,517 - INFO - Querying TP files for TOI: 269558487
+2024-10-09 11:11:09,911 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000269558487-s0030_tess_v1_tp.fits for TOI: 269558487
+2024-10-09 11:11:12,383 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000269558487-s0003_tess_v1_tp.fits for TOI: 269558487
+2024-10-09 11:11:15,035 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000269558487-s0042_tess_v1_tp.fits for TOI: 269558487
+2024-10-09 11:11:17,675 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000269558487-s0043_tess_v1_tp.fits for TOI: 269558487
+2024-10-09 11:11:21,836 - INFO - Downloaded additional TP file: tess2021232031932-s0042-0000000269558487-0213-s_tp.fits for TOI: 269558487
+2024-10-09 11:11:23,837 - INFO - Querying TP files for TOI: 306338882
+2024-10-09 11:11:25,228 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000306338882-s0030_tess_v1_tp.fits for TOI: 306338882
+2024-10-09 11:11:29,468 - INFO - Downloaded additional TP file: tess2020266004630-s0030-0000000306338882-0195-s_tp.fits for TOI: 306338882
+2024-10-09 11:11:31,469 - INFO - Querying TP files for TOI: 404467699
+2024-10-09 11:11:34,053 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000404467699-s0030_tess_v1_tp.fits for TOI: 404467699
+2024-10-09 11:11:36,553 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000404467699-s0003_tess_v1_tp.fits for TOI: 404467699
+2024-10-09 11:11:40,824 - INFO - Downloaded additional TP file: tess2020266004630-s0030-0000000404467699-0195-s_tp.fits for TOI: 404467699
+2024-10-09 11:11:42,824 - INFO - Querying TP files for TOI: 198008005
+2024-10-09 11:11:45,851 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000198008005-s0029_tess_v1_tp.fits for TOI: 198008005
+2024-10-09 11:11:48,568 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000198008005-s0030_tess_v1_tp.fits for TOI: 198008005
+2024-10-09 11:11:51,350 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000198008005-s0031_tess_v1_tp.fits for TOI: 198008005
+2024-10-09 11:11:54,849 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000198008005-s0069_tess_v1_tp.fits for TOI: 198008005
+2024-10-09 11:11:58,850 - INFO - Downloaded additional TP file: tess2020238165205-s0029-0000000198008005-0193-s_tp.fits for TOI: 198008005
+2024-10-09 11:12:00,851 - INFO - Querying TP files for TOI: 150430484
+2024-10-09 11:12:04,603 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000150430484-s0027_tess_v1_tp.fits for TOI: 150430484
+2024-10-09 11:12:07,231 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000150430484-s0028_tess_v1_tp.fits for TOI: 150430484
+2024-10-09 11:12:09,903 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000150430484-s0029_tess_v1_tp.fits for TOI: 150430484
+2024-10-09 11:12:12,661 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000150430484-s0030_tess_v1_tp.fits for TOI: 150430484
+2024-10-09 11:12:15,128 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000150430484-s0001_tess_v1_tp.fits for TOI: 150430484
+2024-10-09 11:12:17,128 - INFO - Querying TP files for TOI: 321011127
+2024-10-09 11:12:20,865 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000321011127-s0030_tess_v1_tp.fits for TOI: 321011127
+2024-10-09 11:12:23,320 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000321011127-s0003_tess_v1_tp.fits for TOI: 321011127
+2024-10-09 11:12:25,770 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000321011127-s0004_tess_v1_tp.fits for TOI: 321011127
+2024-10-09 11:12:30,277 - INFO - Downloaded additional TP file: tess2020266004630-s0030-0000000321011127-0195-s_tp.fits for TOI: 321011127
+2024-10-09 11:12:32,277 - INFO - Querying TP files for TOI: 372913430
+2024-10-09 11:12:35,223 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000372913430-s0027_tess_v1_tp.fits for TOI: 372913430
+2024-10-09 11:12:37,723 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000372913430-s0001_tess_v1_tp.fits for TOI: 372913430
+2024-10-09 11:12:40,165 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000372913430-s0004_tess_v1_tp.fits for TOI: 372913430
+2024-10-09 11:12:42,841 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000372913430-s0031_tess_v1_tp.fits for TOI: 372913430
+2024-10-09 11:12:45,864 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000372913430-s0034_tess_v1_tp.fits for TOI: 372913430
+2024-10-09 11:12:47,865 - INFO - Querying TP files for TOI: 309254930
+2024-10-09 11:13:08,200 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000309254930-s0028_tess_v1_tp.fits for TOI: 309254930
+2024-10-09 11:13:10,900 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000309254930-s0032_tess_v1_tp.fits for TOI: 309254930
+2024-10-09 11:13:13,605 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000309254930-s0031_tess_v1_tp.fits for TOI: 309254930
+2024-10-09 11:13:16,297 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000309254930-s0035_tess_v1_tp.fits for TOI: 309254930
+2024-10-09 11:13:19,021 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000309254930-s0036_tess_v1_tp.fits for TOI: 309254930
+2024-10-09 11:13:21,022 - INFO - Querying TP files for TOI: 238898571
+2024-10-09 11:13:24,486 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000238898571-s0005_tess_v1_tp.fits for TOI: 238898571
+2024-10-09 11:13:26,964 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000238898571-s0006_tess_v1_tp.fits for TOI: 238898571
+2024-10-09 11:13:29,637 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000238898571-s0032_tess_v1_tp.fits for TOI: 238898571
+2024-10-09 11:13:32,391 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000238898571-s0034_tess_v1_tp.fits for TOI: 238898571
+2024-10-09 11:13:35,055 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000238898571-s0033_tess_v1_tp.fits for TOI: 238898571
+2024-10-09 11:13:37,056 - INFO - Querying TP files for TOI: 231728511
+2024-10-09 11:13:39,916 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000231728511-s0027_tess_v1_tp.fits for TOI: 231728511
+2024-10-09 11:13:42,368 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000231728511-s0004_tess_v1_tp.fits for TOI: 231728511
+2024-10-09 11:13:44,835 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000231728511-s0005_tess_v1_tp.fits for TOI: 231728511
+2024-10-09 11:13:47,267 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000231728511-s0006_tess_v1_tp.fits for TOI: 231728511
+2024-10-09 11:13:49,915 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000231728511-s0032_tess_v1_tp.fits for TOI: 231728511
+2024-10-09 11:13:51,916 - INFO - Querying TP files for TOI: 44797824
+2024-10-09 11:13:59,671 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000044797824-s0004_tess_v1_tp.fits for TOI: 44797824
+2024-10-09 11:14:02,140 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000044797824-s0005_tess_v1_tp.fits for TOI: 44797824
+2024-10-09 11:14:04,861 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000044797824-s0031_tess_v1_tp.fits for TOI: 44797824
+2024-10-09 11:14:12,576 - INFO - Downloaded additional TP file: tess2020294194027-s0031-0000000044797824-0198-s_tp.fits for TOI: 44797824
+2024-10-09 11:14:16,534 - INFO - Downloaded additional TP file: tess2018292075959-s0004-0000000044797824-0124-s_tp.fits for TOI: 44797824
+2024-10-09 11:14:18,535 - INFO - Querying TP files for TOI: 381976956

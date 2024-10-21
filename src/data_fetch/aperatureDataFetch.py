@@ -5,16 +5,15 @@ from datetime import datetime
 from astroquery.mast import Observations
 import argparse
 import time
+import json
 
 # Parse command-line arguments
-parser = argparse.ArgumentParser(description="Fetch TESS TOI TP files.")
+parser = argparse.ArgumentParser(description="Fetch TESS TOI TP files with additional downloads up to 5 files.")
 parser.add_argument("csv_file", type=str, help="Path to the input CSV file with TOI data")
-parser.add_argument("index_file", type=str, help="Path to the existing index CSV file")
 parser.add_argument("--delay", type=float, help="Delay between downloads (in seconds)", default=1.0)
 args = parser.parse_args()
 
 csv_file = args.csv_file
-index_file = args.index_file
 delay_between_downloads = args.delay
 
 # Setup logging
@@ -30,10 +29,20 @@ output_csv = 'data/rawData/tp_fits_file_index.csv'
 tp_dir = 'data/rawData/TP/'
 os.makedirs(tp_dir, exist_ok=True)
 
-# Load the input CSV and index CSV
+# Load the input CSV and get a list of distinct TOI IDs with matching obs_ids
 df = pd.read_csv(csv_file)
-index_df = pd.read_csv(index_file)
 distinct_toi_ids = df['tic_id'].unique()
+#print(distinct_toi_ids)
+# Modification to get from specified last toi id
+last_toi_id = 381976956
+
+for i in range(0, len(distinct_toi_ids)):
+    if distinct_toi_ids[i] == last_toi_id:
+        index = i
+        #print(i)
+
+distinct_toi_ids = distinct_toi_ids[index:]
+#print(distinct_toi_ids)
 
 def save_to_csv(row_dict):
     """Append data to TP index file."""
@@ -45,23 +54,26 @@ def save_to_csv(row_dict):
 # Main loop to fetch TP files for each distinct TOI ID
 for toi_id in distinct_toi_ids:
     try:
-        # Limit to 5 TP files per TOI ID by matching `obs_id` in the existing index
-        matched_obs_ids = index_df[index_df['tic_id'] == toi_id]['obs_id'].unique()
-        if len(matched_obs_ids) == 0:
-            logging.warning(f"No matching obs_id found in index for TOI: {toi_id}")
-            continue
-        
         logging.info(f"Querying TP files for TOI: {toi_id}")
+
+        # Primary match: Find TP files matching obs_id entries from the CSV
+        matched_obs_ids = df[df['tic_id'] == toi_id]['obs_id'].unique()
         tp_products = Observations.query_criteria(target_name=toi_id, project="TESS", dataproduct_type="timeseries")
         tp_files = Observations.get_product_list(tp_products)
-        tp_files = tp_files[tp_files['obs_id'].isin(matched_obs_ids) & tp_files['productFilename'].str.contains('_tp.fits')].head(5)
         
-        if tp_files is None or len(tp_files) == 0:
-            logging.warning(f"No TP files found or matched for TOI: {toi_id}")
-            continue
+        # Convert relevant column(s) to standard Series before filtering
+        tp_files_df = tp_files.to_pandas()  # Convert entire table to DataFrame
+        tp_files_df['parent_obsid'] = tp_files_df['parent_obsid'].astype(str)
 
-        # Download each TP file and log to the CSV
-        for _, row in tp_files.iterrows():
+        # Filter TP files that match the obs_ids and are of '_tp.fits' type
+        matched_tp_files = tp_files_df[(tp_files_df['parent_obsid'].isin(matched_obs_ids.astype(str))) &
+                                       (tp_files_df['productFilename'].str.contains('_tp.fits'))]
+
+        # Download matched files
+        download_count = 0
+        for _, row in matched_tp_files.iterrows():
+            if download_count >= 5:
+                break
             file_url = row['dataURI']
             filename = row['productFilename']
             local_path = os.path.join(tp_dir, filename)
@@ -70,18 +82,40 @@ for toi_id in distinct_toi_ids:
             if download_result[0] == 'COMPLETE':
                 save_to_csv({
                     'tic_id': toi_id,
-                    'obs_id': row['obs_id'],
+                    'obs_id': row['parent_obsid'],
                     'file_type': 'TP',
-                    'file_path': local_path,
-                    'proposal_pi': row.get('proposal_pi', 'N/A'),
-                    'obs_title': row.get('obs_title', 'N/A')
+                    'file_path': local_path
                 })
                 logging.info(f"Downloaded TP file: {filename} for TOI: {toi_id}")
+                download_count += 1
             else:
                 logging.error(f"Failed to download TP file for TOI: {toi_id}")
-
-            logging.info(f"Sleeping for {delay_between_downloads} seconds to respect API limits")
             time.sleep(delay_between_downloads)
+
+        # If fewer than 5 files, get additional TP files until count reaches 5
+        if download_count < 5:
+            remaining_tp_files = tp_files_df[(~tp_files_df['parent_obsid'].isin(matched_obs_ids.astype(str))) & 
+                                             (tp_files_df['productFilename'].str.contains('_tp.fits'))]
+            for _, row in remaining_tp_files.iterrows():
+                if download_count >= 5:
+                    break
+                file_url = row['dataURI']
+                filename = row['productFilename']
+                local_path = os.path.join(tp_dir, filename)
+                download_result = Observations.download_file(file_url, local_path=local_path)
+
+                if download_result[0] == 'COMPLETE':
+                    save_to_csv({
+                        'tic_id': toi_id,
+                        'obs_id': row['parent_obsid'],
+                        'file_type': 'TP',
+                        'file_path': local_path
+                    })
+                    logging.info(f"Downloaded additional TP file: {filename} for TOI: {toi_id}")
+                    download_count += 1
+                else:
+                    logging.error(f"Failed to download additional TP file for TOI: {toi_id}")
+                time.sleep(delay_between_downloads)
 
     except Exception as e:
         logging.error(f"Error processing TP files for TOI: {toi_id}, Error: {str(e)}")

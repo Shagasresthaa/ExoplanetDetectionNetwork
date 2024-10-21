@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 # List of file types to exclude
-excluded_files = ['raw_fits_file_index.csv', 'last_processed_index.txt', 'distinct_toi_ids.json', 'last_processed_toi.json']
+excluded_files = ['raw_fits_file_index.csv', 'tp_fits_file_index.csv', 'last_processed_index.txt', 'distinct_toi_ids.json', 'last_processed_toi.json']
 
 # Function to move files from source to destination, maintaining the folder structure
 def move_data(source_dir, dest_dir, delay_between_moves=180):
