@@ -41,20 +41,12 @@ def move_data(source_dir, dest_dir, delay_between_moves=180):
                 log_message = f"Moved: {source_file_path} -> {dest_file_path}"
                 logging.info(log_message)
                 print(log_message)
-
-                # # Sleep between moves to avoid overwhelming the system
-                # logging.info(f"Sleeping for {delay_between_moves} seconds...")
-                # print(f"Sleeping for {delay_between_moves} seconds...")
-                # time.sleep(delay_between_moves)
             except Exception as e:
                 error_message = f"Error moving file: {source_file_path}. Error: {str(e)}"
                 logging.error(error_message)
                 print(error_message)
 
 if __name__ == "__main__":
-    # Specify the source directory and destination directory
-    source_directory = 'data/rawData/'  # Local folder where your data is stored
-    destination_directory = '/run/media/maverick/X10 Pro/data_bkp/dataset'  # External SSD path
-
-    # Start moving data with a delay of 180 seconds between moves
+    source_directory = 'data/truePositivesRawData/'
+    destination_directory = '/run/media/maverick/X10 Pro/exoplanetDataset/truePositivesRaw'
     move_data(source_directory, destination_directory, delay_between_moves=180)

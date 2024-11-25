@@ -10,27 +10,30 @@ if not os.path.exists(log_dir):
     os.makedirs(log_dir)
 
 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-log_filename = os.path.join(log_dir, f'query_log_{timestamp}.log')
+log_filename = os.path.join(log_dir, f'false_positives_query_log_{timestamp}.log')
 logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logging.info("Known Candidate Metadata fetch Initiated.......")
+logging.info("False Positive Candidate Metadata fetch Initiated.......")
 
 fp = "data/exofop_tess_tois.csv"
 
 toi_list = pd.read_csv(fp, skiprows=1)
+
+# Filter for False Positives in TESS Disposition and TFOPWG Disposition
+toi_list = toi_list[
+    (toi_list['TESS Disposition'].isin(['EB', 'V'])) | 
+    (toi_list['TFOPWG Disposition'].isin(['FP', 'FA']))
+]
+
 tic_ids = toi_list['TIC ID'].tolist()
 
-toi_list = toi_list[
-    (toi_list['TESS Disposition'] == 'PC') | 
-    (toi_list['TFOPWG Disposition'] == 'CP')
-]
 #print(len(toi_list))
-# Create the matched observations file and write headers initially
 
-output_file = 'data/true_positive_matched_observations_lc_data.csv'
+# Create the matched observations file and write headers initially
+output_file = 'data/false_positive_matched_observations_lc_data.csv'
 if not os.path.exists(output_file):
     pd.DataFrame(columns=['tic_id', 'obs_id', 'ra', 'dec', 'calib_level', 't_min', 't_max', 'dataURL', 'obs_title', 'proposal_pi']).to_csv(output_file, index=False)
 
-for tic_id in tic_ids[1001:1500]:
+for tic_id in tic_ids[396:]:
     logging.info(f"Fetching data for TIC ID: {tic_id}")
     
     try:
@@ -57,8 +60,8 @@ for tic_id in tic_ids[1001:1500]:
             obs_df = obs_table.to_pandas()
 
             # Save the full observation DataFrame to CSV
-            obs_df.to_csv(f'data/truePositivesObservationsData/observations_table_{tic_id}.csv', index=False)
-            logging.info(f"Saved observation data for TIC ID {tic_id} to CSV.")
+            obs_df.to_csv(f'data/falsePositivesObservationsData/observations_table_{tic_id}.csv', index=False)
+            logging.info(f"Saved observation data for TIC ID {tic_id} to CSV at path data/falsePositivesObservationsData/observations_table_{tic_id}.csv.")
 
             # Filter for rows where 'dataURL' ends with '_lc.fits' or '_llc.fits' or '_dvt.fits' (Light curve or Long Light Curve Data Files or Aperature Data Files)
             filtered_obs = obs_df[
@@ -92,4 +95,4 @@ for tic_id in tic_ids[1001:1500]:
     except Exception as e:
         logging.error(f"Error fetching data for TIC ID {tic_id}: {e}")
 
-logging.info("Known Candidate Metadata fetch completed.......")
+logging.info("False Positives Candidate Metadata fetch completed.......")

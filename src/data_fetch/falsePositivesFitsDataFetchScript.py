@@ -8,7 +8,7 @@ import time
 import json
 
 # Parse command-line arguments
-parser = argparse.ArgumentParser(description="Fetch TESS TOI FITS files.")
+parser = argparse.ArgumentParser(description="Fetch False Positive TESS TOI FITS files.")
 parser.add_argument("csv_file", type=str, help="Path to the input CSV file")
 parser.add_argument("--limit", type=int, help="Limit the number of TOI IDs to process", default=None)
 parser.add_argument("--delay", type=float, help="Delay between downloads (in seconds)", default=1.0)
@@ -22,13 +22,13 @@ delay_between_downloads = args.delay
 log_dir = 'logs/data_fetch/'
 os.makedirs(log_dir, exist_ok=True)
 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-log_filename = os.path.join(log_dir, f'tess_fits_data_fetch_log_{timestamp}.log')
+log_filename = os.path.join(log_dir, f'false_positive_tess_fits_data_fetch_log_{timestamp}.log')
 logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logging.info("Data Fetch Initiated......")
+logging.info("False Positives Data Fetch Initiated......")
 
 # Output CSV for tracking downloaded files
-output_csv = 'data/truePositivesRawData/raw_fits_file_index.csv'
-raw_data_dir = 'data/truePositivesRawData/'
+output_csv = 'data/falsePositivesRawData/raw_fits_file_index.csv'
+raw_data_dir = '/run/media/maverick/X10 Pro/exoplanetDataset/falsePositivesRaw/'
 lc_dir = os.path.join(raw_data_dir, 'LC/')
 llc_dir = os.path.join(raw_data_dir, 'LLC/')
 dvt_dir = os.path.join(raw_data_dir, 'DVT/')
@@ -36,8 +36,8 @@ for directory in [lc_dir, llc_dir, dvt_dir]:
     os.makedirs(directory, exist_ok=True)
 
 # File to track distinct TOI IDs and last processed TOI ID
-distinct_toi_file = 'data/truePositivesRawData/distinct_toi_ids.json'
-last_toi_file = 'data/truePositivesRawData/last_processed_toi.json'
+distinct_toi_file = 'data/falsePositivesRawData/distinct_toi_ids.json'
+last_toi_file = 'data/falsePositivesRawData/last_processed_toi.json'
 
 # Load the input CSV
 df = pd.read_csv(csv_file)
@@ -84,9 +84,9 @@ last_processed_toi = load_last_processed_toi()
 
 if last_processed_toi:
     last_toi_index = unique_toi_ids.index(last_processed_toi)
-    remaining_toi_ids = unique_toi_ids[last_toi_index:]
+    remaining_toi_ids = unique_toi_ids[last_toi_index:]  # Resume from the last TOI ID
 else:
-    remaining_toi_ids = unique_toi_ids
+    remaining_toi_ids = unique_toi_ids  # No last TOI ID, so start from the beginning
 
 def save_to_csv(row_dict):
     if not os.path.exists(output_csv):
@@ -97,7 +97,7 @@ def save_to_csv(row_dict):
 # Main loop to process each TOI ID
 for toi_id in remaining_toi_ids:
     toi_df = df[df['tic_id'] == toi_id]
-    file_counts = {'LC': 0, 'LLC': 0, 'DVT': 0}
+    file_counts = {'LC': 0, 'LLC': 0, 'DVT': 0}  # Initialize file counts for each type per TIC ID
 
     try:
         for _, row in toi_df.iterrows():
@@ -117,7 +117,7 @@ for toi_id in remaining_toi_ids:
             elif '_dvt.fits' in file_url and file_counts['DVT'] < 5:
                 file_type, save_dir = 'DVT', dvt_dir
             else:
-                continue
+                continue  # Skip if the file count for the type exceeds the limit
 
             # Set the local filename for saving the file
             filename = file_url.split('/')[-1]
@@ -138,7 +138,7 @@ for toi_id in remaining_toi_ids:
                     'proposal_pi': row['proposal_pi'],
                     'obs_title': row['obs_title']
                 })
-                file_counts[file_type] += 1
+                file_counts[file_type] += 1  # Update the count for the downloaded file type
                 logging.info(f"Downloaded {file_type} file: {filename} for TOI: {tic_id}")
             else:
                 logging.error(f"Failed to download {file_type} file for TOI: {tic_id}")
@@ -146,10 +146,11 @@ for toi_id in remaining_toi_ids:
             logging.info(f"Sleeping for {delay_between_downloads} seconds to respect API limits")
             time.sleep(delay_between_downloads)
 
+        # Save the last processed TOI ID after each successful TOI ID
         save_last_processed_toi(toi_id)
 
     except Exception as e:
         logging.error(f"Error processing TOI: {toi_id}, Error: {str(e)}")
         continue
 
-logging.info("Data Fetch Completed......")
+logging.info("False Positives Data Fetch Completed......")

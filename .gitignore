@@ -164,4 +164,5 @@ cython_debug/
 
 !raw_fits_file_index.csv
 !exofop_tess_tois.csv
-!matched_observations_lc_data.csv
+!*matched_observations_lc_data.csv
+!tp_fits_file_index.csv

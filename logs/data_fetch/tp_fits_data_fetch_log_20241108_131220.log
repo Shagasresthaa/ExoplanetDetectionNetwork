@@ -1,0 +1,12 @@
+2024-11-08 13:12:20,383 - INFO - TP Data Fetch Initiated......
+2024-11-08 13:12:20,393 - INFO - Querying TP files for TOI: 176957796
+2024-11-08 13:12:21,157 - INFO - Found cached file /run/media/maverick/X10 Pro/exoplanetDataset/falsePositivesRaw/TP/hlsp_tess-spoc_tess_phot_0000000176957796-s0027_tess_v1_tp.fits with expected size 8625600.
+2024-11-08 13:12:21,159 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000176957796-s0027_tess_v1_tp.fits for TOI: 176957796
+2024-11-08 13:12:23,433 - INFO - Found cached file /run/media/maverick/X10 Pro/exoplanetDataset/falsePositivesRaw/TP/hlsp_tess-spoc_tess_phot_0000000176957796-s0028_tess_v1_tp.fits with expected size 8939520.
+2024-11-08 13:12:23,434 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000176957796-s0028_tess_v1_tp.fits for TOI: 176957796
+2024-11-08 13:12:25,678 - INFO - Found cached file /run/media/maverick/X10 Pro/exoplanetDataset/falsePositivesRaw/TP/hlsp_tess-spoc_tess_phot_0000000176957796-s0029_tess_v1_tp.fits with expected size 9273600.
+2024-11-08 13:12:25,679 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000176957796-s0029_tess_v1_tp.fits for TOI: 176957796
+2024-11-08 13:12:27,945 - INFO - Found cached file /run/media/maverick/X10 Pro/exoplanetDataset/falsePositivesRaw/TP/hlsp_tess-spoc_tess_phot_0000000176957796-s0030_tess_v1_tp.fits with expected size 9676800.
+2024-11-08 13:12:27,946 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000176957796-s0030_tess_v1_tp.fits for TOI: 176957796
+2024-11-08 13:12:30,283 - INFO - Found cached file /run/media/maverick/X10 Pro/exoplanetDataset/falsePositivesRaw/TP/hlsp_tess-spoc_tess_phot_0000000176957796-s0001_tess_v1_tp.fits with expected size 3312000.
+2024-11-08 13:12:30,285 - INFO - Downloaded additional TP file: hlsp_tess-spoc_tess_phot_0000000176957796-s0001_tess_v1_tp.fits for TOI: 176957796
