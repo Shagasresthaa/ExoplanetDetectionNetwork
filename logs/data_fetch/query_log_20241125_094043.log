@@ -1,0 +1,828 @@
+2024-11-25 09:40:43,770 - INFO - Known Candidate Metadata fetch initiated.......
+2024-11-25 09:40:43,802 - INFO - Fetching data for TIC ID: 219436394
+2024-11-25 09:40:44,994 - INFO - TIC ID: 219436394 - RA: 205.594365967273, Dec: 76.6479665157465
+2024-11-25 09:40:45,420 - WARNING - InputWarning: Coordinate string is being interpreted as an ICRS coordinate provided in degrees.
+2024-11-25 09:41:11,245 - INFO - Saved observation data for TIC ID 219436394 to CSV.
+2024-11-25 09:41:11,246 - INFO - Found light curve data for TIC ID 219436394, saving filtered observations.
+2024-11-25 09:41:11,248 - INFO - Appended data for TIC ID 219436394 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:41:11,248 - INFO - Fetching data for TIC ID: 417931300
+2024-11-25 09:41:12,052 - INFO - TIC ID: 417931300 - RA: 186.275285851536, Dec: 60.4183722196043
+2024-11-25 09:41:22,075 - INFO - Saved observation data for TIC ID 417931300 to CSV.
+2024-11-25 09:41:22,076 - INFO - Found light curve data for TIC ID 417931300, saving filtered observations.
+2024-11-25 09:41:22,078 - INFO - Appended data for TIC ID 417931300 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:41:22,079 - INFO - Fetching data for TIC ID: 198187049
+2024-11-25 09:41:22,930 - INFO - TIC ID: 198187049 - RA: 245.727923924862, Dec: 61.6946316813349
+2024-11-25 09:43:02,200 - INFO - Saved observation data for TIC ID 198187049 to CSV.
+2024-11-25 09:43:02,201 - INFO - Found light curve data for TIC ID 198187049, saving filtered observations.
+2024-11-25 09:43:02,205 - INFO - Appended data for TIC ID 198187049 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:43:02,205 - INFO - Fetching data for TIC ID: 233182695
+2024-11-25 09:43:03,078 - INFO - TIC ID: 233182695 - RA: 219.043489420577, Dec: 68.9406175518385
+2024-11-25 09:43:42,623 - INFO - Saved observation data for TIC ID 233182695 to CSV.
+2024-11-25 09:43:42,624 - INFO - Found light curve data for TIC ID 233182695, saving filtered observations.
+2024-11-25 09:43:42,627 - INFO - Appended data for TIC ID 233182695 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:43:42,627 - INFO - Fetching data for TIC ID: 198360694
+2024-11-25 09:43:43,494 - INFO - TIC ID: 198360694 - RA: 256.601193168485, Dec: 57.6611004633055
+2024-11-25 09:45:49,713 - INFO - Saved observation data for TIC ID 198360694 to CSV.
+2024-11-25 09:45:49,714 - INFO - Found light curve data for TIC ID 198360694, saving filtered observations.
+2024-11-25 09:45:49,718 - INFO - Appended data for TIC ID 198360694 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:45:49,718 - INFO - Fetching data for TIC ID: 900715901
+2024-11-25 09:45:50,431 - INFO - TIC ID: 900715901 - RA: 173.989737490813, Dec: 75.5470049270358
+2024-11-25 09:46:06,979 - INFO - Saved observation data for TIC ID 900715901 to CSV.
+2024-11-25 09:46:06,980 - INFO - Found light curve data for TIC ID 900715901, saving filtered observations.
+2024-11-25 09:46:06,982 - INFO - Appended data for TIC ID 900715901 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:46:06,982 - INFO - Fetching data for TIC ID: 441642457
+2024-11-25 09:46:07,571 - INFO - TIC ID: 441642457 - RA: 209.883014430184, Dec: 58.933012763423
+2024-11-25 09:46:23,448 - INFO - Saved observation data for TIC ID 441642457 to CSV.
+2024-11-25 09:46:23,448 - INFO - Found light curve data for TIC ID 441642457, saving filtered observations.
+2024-11-25 09:46:23,450 - INFO - Appended data for TIC ID 441642457 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:46:23,450 - INFO - Fetching data for TIC ID: 158075010
+2024-11-25 09:46:24,204 - INFO - TIC ID: 158075010 - RA: 218.184663023972, Dec: 43.7563423144516
+2024-11-25 09:46:30,585 - INFO - Saved observation data for TIC ID 158075010 to CSV.
+2024-11-25 09:46:30,586 - INFO - Found light curve data for TIC ID 158075010, saving filtered observations.
+2024-11-25 09:46:30,588 - INFO - Appended data for TIC ID 158075010 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:46:30,588 - INFO - Fetching data for TIC ID: 23814735
+2024-11-25 09:46:31,299 - INFO - TIC ID: 23814735 - RA: 210.044479663711, Dec: 38.7057725756901
+2024-11-25 09:46:37,481 - INFO - Saved observation data for TIC ID 23814735 to CSV.
+2024-11-25 09:46:37,481 - INFO - Found light curve data for TIC ID 23814735, saving filtered observations.
+2024-11-25 09:46:37,483 - INFO - Appended data for TIC ID 23814735 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:46:37,483 - INFO - Fetching data for TIC ID: 27491137
+2024-11-25 09:46:38,166 - INFO - TIC ID: 27491137 - RA: 217.392678387443, Dec: 39.7904291644655
+2024-11-25 09:46:41,659 - INFO - Saved observation data for TIC ID 27491137 to CSV.
+2024-11-25 09:46:41,660 - INFO - Found light curve data for TIC ID 27491137, saving filtered observations.
+2024-11-25 09:46:41,662 - INFO - Appended data for TIC ID 27491137 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:46:41,662 - INFO - Fetching data for TIC ID: 230075227
+2024-11-25 09:46:42,437 - INFO - TIC ID: 230075227 - RA: 244.376994341516, Dec: 68.8945139371524
+2024-11-25 09:47:57,120 - INFO - Saved observation data for TIC ID 230075227 to CSV.
+2024-11-25 09:47:57,120 - INFO - Found light curve data for TIC ID 230075227, saving filtered observations.
+2024-11-25 09:47:57,122 - INFO - Appended data for TIC ID 230075227 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:47:57,122 - INFO - Fetching data for TIC ID: 27491137
+2024-11-25 09:47:57,847 - INFO - TIC ID: 27491137 - RA: 217.392678387443, Dec: 39.7904291644655
+2024-11-25 09:47:57,931 - INFO - Saved observation data for TIC ID 27491137 to CSV.
+2024-11-25 09:47:57,932 - INFO - Found light curve data for TIC ID 27491137, saving filtered observations.
+2024-11-25 09:47:57,934 - INFO - Appended data for TIC ID 27491137 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:47:57,934 - INFO - Fetching data for TIC ID: 159244568
+2024-11-25 09:47:58,747 - INFO - TIC ID: 159244568 - RA: 227.178797232374, Dec: 82.4472130050728
+2024-11-25 09:48:53,263 - INFO - Saved observation data for TIC ID 159244568 to CSV.
+2024-11-25 09:48:53,264 - INFO - Found light curve data for TIC ID 159244568, saving filtered observations.
+2024-11-25 09:48:53,266 - INFO - Appended data for TIC ID 159244568 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:48:53,266 - INFO - Fetching data for TIC ID: 224298134
+2024-11-25 09:48:54,277 - INFO - TIC ID: 224298134 - RA: 185.339398524995, Dec: 57.75246710573
+2024-11-25 09:49:04,880 - INFO - Saved observation data for TIC ID 224298134 to CSV.
+2024-11-25 09:49:04,881 - INFO - Found light curve data for TIC ID 224298134, saving filtered observations.
+2024-11-25 09:49:04,883 - INFO - Appended data for TIC ID 224298134 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:49:04,883 - INFO - Fetching data for TIC ID: 367739494
+2024-11-25 09:49:05,780 - INFO - TIC ID: 367739494 - RA: 250.383448520265, Dec: 80.0456010584959
+2024-11-25 09:49:52,038 - INFO - Saved observation data for TIC ID 367739494 to CSV.
+2024-11-25 09:49:52,039 - INFO - Found light curve data for TIC ID 367739494, saving filtered observations.
+2024-11-25 09:49:52,042 - INFO - Appended data for TIC ID 367739494 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:49:52,042 - INFO - Fetching data for TIC ID: 321669174
+2024-11-25 09:49:53,087 - INFO - TIC ID: 321669174 - RA: 264.303065107949, Dec: 53.0257034132943
+2024-11-25 09:50:46,325 - INFO - Saved observation data for TIC ID 321669174 to CSV.
+2024-11-25 09:50:46,325 - INFO - Found light curve data for TIC ID 321669174, saving filtered observations.
+2024-11-25 09:50:46,328 - INFO - Appended data for TIC ID 321669174 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:50:46,328 - INFO - Fetching data for TIC ID: 160039081
+2024-11-25 09:50:47,162 - INFO - TIC ID: 160039081 - RA: 241.58069719882, Dec: 53.5150419326458
+2024-11-25 09:51:06,054 - INFO - Saved observation data for TIC ID 160039081 to CSV.
+2024-11-25 09:51:06,054 - INFO - Found light curve data for TIC ID 160039081, saving filtered observations.
+2024-11-25 09:51:06,056 - INFO - Appended data for TIC ID 160039081 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:51:06,056 - INFO - Fetching data for TIC ID: 328933398
+2024-11-25 09:51:06,910 - INFO - TIC ID: 328933398 - RA: 212.568428678849, Dec: 84.3718685822996
+2024-11-25 09:51:47,254 - INFO - Saved observation data for TIC ID 328933398 to CSV.
+2024-11-25 09:51:47,255 - INFO - Found light curve data for TIC ID 328933398, saving filtered observations.
+2024-11-25 09:51:47,258 - INFO - Appended data for TIC ID 328933398 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:51:47,258 - INFO - Fetching data for TIC ID: 233633993
+2024-11-25 09:51:48,499 - INFO - TIC ID: 233633993 - RA: 284.767510080759, Dec: 60.1541928687696
+2024-11-25 09:53:20,213 - INFO - Saved observation data for TIC ID 233633993 to CSV.
+2024-11-25 09:53:20,214 - INFO - Found light curve data for TIC ID 233633993, saving filtered observations.
+2024-11-25 09:53:20,218 - INFO - Appended data for TIC ID 233633993 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:53:20,218 - INFO - Fetching data for TIC ID: 441738827
+2024-11-25 09:53:21,077 - INFO - TIC ID: 441738827 - RA: 259.253846246238, Dec: 72.7468647878443
+2024-11-25 09:54:51,385 - INFO - Saved observation data for TIC ID 441738827 to CSV.
+2024-11-25 09:54:51,386 - INFO - Found light curve data for TIC ID 441738827, saving filtered observations.
+2024-11-25 09:54:51,393 - INFO - Appended data for TIC ID 441738827 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:54:51,393 - INFO - Fetching data for TIC ID: 103633672
+2024-11-25 09:54:52,349 - INFO - TIC ID: 103633672 - RA: 152.223905460454, Dec: 70.3947295108543
+2024-11-25 09:55:07,109 - INFO - Saved observation data for TIC ID 103633672 to CSV.
+2024-11-25 09:55:07,110 - INFO - Found light curve data for TIC ID 103633672, saving filtered observations.
+2024-11-25 09:55:07,113 - INFO - Appended data for TIC ID 103633672 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:55:07,113 - INFO - Fetching data for TIC ID: 230387153
+2024-11-25 09:55:08,249 - INFO - TIC ID: 230387153 - RA: 285.921517606567, Dec: 65.7853992171104
+2024-11-25 09:56:57,024 - INFO - Saved observation data for TIC ID 230387153 to CSV.
+2024-11-25 09:56:57,025 - INFO - Found light curve data for TIC ID 230387153, saving filtered observations.
+2024-11-25 09:56:57,029 - INFO - Appended data for TIC ID 230387153 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:56:57,029 - INFO - Fetching data for TIC ID: 219462190
+2024-11-25 09:56:57,935 - INFO - TIC ID: 219462190 - RA: 208.053203860441, Dec: 75.1652926601709
+2024-11-25 09:57:29,319 - INFO - Saved observation data for TIC ID 219462190 to CSV.
+2024-11-25 09:57:29,319 - INFO - Found light curve data for TIC ID 219462190, saving filtered observations.
+2024-11-25 09:57:29,322 - INFO - Appended data for TIC ID 219462190 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:57:29,322 - INFO - Fetching data for TIC ID: 441765914
+2024-11-25 09:57:30,144 - INFO - TIC ID: 441765914 - RA: 261.375228535614, Dec: 75.8822880994724
+2024-11-25 09:58:51,207 - INFO - Saved observation data for TIC ID 441765914 to CSV.
+2024-11-25 09:58:51,208 - INFO - Found light curve data for TIC ID 441765914, saving filtered observations.
+2024-11-25 09:58:51,211 - INFO - Appended data for TIC ID 441765914 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:58:51,212 - INFO - Fetching data for TIC ID: 341815197
+2024-11-25 09:58:52,397 - INFO - TIC ID: 341815197 - RA: 267.307158956198, Dec: 54.4159474083761
+2024-11-25 09:59:42,455 - INFO - Saved observation data for TIC ID 341815197 to CSV.
+2024-11-25 09:59:42,456 - INFO - Found light curve data for TIC ID 341815197, saving filtered observations.
+2024-11-25 09:59:42,460 - INFO - Appended data for TIC ID 341815197 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 09:59:42,460 - INFO - Fetching data for TIC ID: 356700488
+2024-11-25 09:59:43,466 - INFO - TIC ID: 356700488 - RA: 254.455487054797, Dec: 68.699669810493
+2024-11-25 10:01:18,119 - INFO - Saved observation data for TIC ID 356700488 to CSV.
+2024-11-25 10:01:18,120 - INFO - Found light curve data for TIC ID 356700488, saving filtered observations.
+2024-11-25 10:01:18,124 - INFO - Appended data for TIC ID 356700488 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:01:18,124 - INFO - Fetching data for TIC ID: 233721037
+2024-11-25 10:01:18,948 - INFO - TIC ID: 233721037 - RA: 276.394146146524, Dec: 64.6367346860391
+2024-11-25 10:03:07,687 - INFO - Saved observation data for TIC ID 233721037 to CSV.
+2024-11-25 10:03:07,688 - INFO - Found light curve data for TIC ID 233721037, saving filtered observations.
+2024-11-25 10:03:07,691 - INFO - Appended data for TIC ID 233721037 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:03:07,691 - INFO - Fetching data for TIC ID: 219778329
+2024-11-25 10:03:08,411 - INFO - TIC ID: 219778329 - RA: 263.851951360777, Dec: 64.3804520914249
+2024-11-25 10:04:49,033 - INFO - Saved observation data for TIC ID 219778329 to CSV.
+2024-11-25 10:04:49,034 - INFO - Found light curve data for TIC ID 219778329, saving filtered observations.
+2024-11-25 10:04:49,038 - INFO - Appended data for TIC ID 219778329 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:04:49,038 - INFO - Fetching data for TIC ID: 393965778
+2024-11-25 10:04:49,802 - INFO - TIC ID: 393965778 - RA: 212.546897143175, Dec: 45.5639945267646
+2024-11-25 10:04:58,452 - INFO - Saved observation data for TIC ID 393965778 to CSV.
+2024-11-25 10:04:58,452 - INFO - Found light curve data for TIC ID 393965778, saving filtered observations.
+2024-11-25 10:04:58,454 - INFO - Appended data for TIC ID 393965778 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:04:58,454 - INFO - Fetching data for TIC ID: 402898317
+2024-11-25 10:04:59,631 - INFO - TIC ID: 402898317 - RA: 302.738007655115, Dec: 70.8694158045323
+2024-11-25 10:06:49,305 - INFO - Saved observation data for TIC ID 402898317 to CSV.
+2024-11-25 10:06:49,306 - INFO - Found light curve data for TIC ID 402898317, saving filtered observations.
+2024-11-25 10:06:49,309 - INFO - Appended data for TIC ID 402898317 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:06:49,309 - INFO - Fetching data for TIC ID: 356016119
+2024-11-25 10:06:50,164 - INFO - TIC ID: 356016119 - RA: 254.143229964921, Dec: 70.027315556666
+2024-11-25 10:08:16,284 - INFO - Saved observation data for TIC ID 356016119 to CSV.
+2024-11-25 10:08:16,285 - INFO - Found light curve data for TIC ID 356016119, saving filtered observations.
+2024-11-25 10:08:16,289 - INFO - Appended data for TIC ID 356016119 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:08:16,289 - INFO - Fetching data for TIC ID: 235678745
+2024-11-25 10:08:17,178 - INFO - TIC ID: 235678745 - RA: 285.633044263632, Dec: 75.4186052923696
+2024-11-25 10:10:10,301 - INFO - Saved observation data for TIC ID 235678745 to CSV.
+2024-11-25 10:10:10,302 - INFO - Found light curve data for TIC ID 235678745, saving filtered observations.
+2024-11-25 10:10:10,306 - INFO - Appended data for TIC ID 235678745 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:10:10,306 - INFO - Fetching data for TIC ID: 142748283
+2024-11-25 10:10:11,058 - INFO - TIC ID: 142748283 - RA: 151.619127342946, Dec: 74.8275341256876
+2024-11-25 10:10:34,745 - INFO - Saved observation data for TIC ID 142748283 to CSV.
+2024-11-25 10:10:34,746 - INFO - Found light curve data for TIC ID 142748283, saving filtered observations.
+2024-11-25 10:10:34,748 - INFO - Appended data for TIC ID 142748283 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:10:34,748 - INFO - Fetching data for TIC ID: 235678745
+2024-11-25 10:10:35,854 - INFO - TIC ID: 235678745 - RA: 285.633044263632, Dec: 75.4186052923696
+2024-11-25 10:10:36,051 - INFO - Saved observation data for TIC ID 235678745 to CSV.
+2024-11-25 10:10:36,052 - INFO - Found light curve data for TIC ID 235678745, saving filtered observations.
+2024-11-25 10:10:36,056 - INFO - Appended data for TIC ID 235678745 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:10:36,056 - INFO - Fetching data for TIC ID: 142748283
+2024-11-25 10:10:36,576 - INFO - TIC ID: 142748283 - RA: 151.619127342946, Dec: 74.8275341256876
+2024-11-25 10:10:36,713 - INFO - Saved observation data for TIC ID 142748283 to CSV.
+2024-11-25 10:10:36,714 - INFO - Found light curve data for TIC ID 142748283, saving filtered observations.
+2024-11-25 10:10:36,717 - INFO - Appended data for TIC ID 142748283 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:10:36,718 - INFO - Fetching data for TIC ID: 165527918
+2024-11-25 10:10:37,659 - INFO - TIC ID: 165527918 - RA: 266.13361862024, Dec: 54.0911348888792
+2024-11-25 10:12:06,733 - INFO - Saved observation data for TIC ID 165527918 to CSV.
+2024-11-25 10:12:06,733 - INFO - Found light curve data for TIC ID 165527918, saving filtered observations.
+2024-11-25 10:12:06,737 - INFO - Appended data for TIC ID 165527918 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:12:06,737 - INFO - Fetching data for TIC ID: 289590465
+2024-11-25 10:12:07,597 - INFO - TIC ID: 289590465 - RA: 253.442912834208, Dec: 65.2941163892487
+2024-11-25 10:14:42,199 - INFO - Saved observation data for TIC ID 289590465 to CSV.
+2024-11-25 10:14:42,200 - INFO - Found light curve data for TIC ID 289590465, saving filtered observations.
+2024-11-25 10:14:42,204 - INFO - Appended data for TIC ID 289590465 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:14:42,204 - INFO - Fetching data for TIC ID: 160491359
+2024-11-25 10:14:43,072 - INFO - TIC ID: 160491359 - RA: 239.018067530096, Dec: 73.0738544962106
+2024-11-25 10:15:49,370 - INFO - Saved observation data for TIC ID 160491359 to CSV.
+2024-11-25 10:15:49,371 - INFO - Found light curve data for TIC ID 160491359, saving filtered observations.
+2024-11-25 10:15:49,374 - INFO - Appended data for TIC ID 160491359 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:15:49,374 - INFO - Fetching data for TIC ID: 367630162
+2024-11-25 10:15:51,997 - INFO - TIC ID: 367630162 - RA: 151.615395917982, Dec: 83.0884087369012
+2024-11-25 10:16:07,524 - INFO - Saved observation data for TIC ID 367630162 to CSV.
+2024-11-25 10:16:07,525 - INFO - Found light curve data for TIC ID 367630162, saving filtered observations.
+2024-11-25 10:16:07,527 - INFO - Appended data for TIC ID 367630162 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:16:07,528 - INFO - Fetching data for TIC ID: 156199502
+2024-11-25 10:16:08,304 - INFO - TIC ID: 156199502 - RA: 181.07387935533, Dec: 83.4376532752374
+2024-11-25 10:16:40,503 - INFO - Saved observation data for TIC ID 156199502 to CSV.
+2024-11-25 10:16:40,504 - INFO - Found light curve data for TIC ID 156199502, saving filtered observations.
+2024-11-25 10:16:40,506 - INFO - Appended data for TIC ID 156199502 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:16:40,506 - INFO - Fetching data for TIC ID: 142276270
+2024-11-25 10:16:41,253 - INFO - TIC ID: 142276270 - RA: 192.18488863833, Dec: 64.8553192973761
+2024-11-25 10:17:00,860 - INFO - Saved observation data for TIC ID 142276270 to CSV.
+2024-11-25 10:17:00,861 - INFO - Found light curve data for TIC ID 142276270, saving filtered observations.
+2024-11-25 10:17:00,864 - INFO - Appended data for TIC ID 142276270 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:17:00,864 - INFO - Fetching data for TIC ID: 230127302
+2024-11-25 10:17:01,755 - INFO - TIC ID: 230127302 - RA: 251.116487458471, Dec: 70.4296389962785
+2024-11-25 10:18:53,282 - INFO - Saved observation data for TIC ID 230127302 to CSV.
+2024-11-25 10:18:53,283 - INFO - Found light curve data for TIC ID 230127302, saving filtered observations.
+2024-11-25 10:18:53,287 - INFO - Appended data for TIC ID 230127302 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:18:53,287 - INFO - Fetching data for TIC ID: 160045097
+2024-11-25 10:18:54,200 - INFO - TIC ID: 160045097 - RA: 213.080044832508, Dec: 74.4116206053703
+2024-11-25 10:20:08,568 - INFO - Saved observation data for TIC ID 160045097 to CSV.
+2024-11-25 10:20:08,569 - INFO - Found light curve data for TIC ID 160045097, saving filtered observations.
+2024-11-25 10:20:08,572 - INFO - Appended data for TIC ID 160045097 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:20:08,572 - INFO - Fetching data for TIC ID: 207425167
+2024-11-25 10:20:09,586 - INFO - TIC ID: 207425167 - RA: 242.747716590376, Dec: 58.2945527600118
+2024-11-25 10:21:20,226 - INFO - Saved observation data for TIC ID 207425167 to CSV.
+2024-11-25 10:21:20,227 - INFO - Found light curve data for TIC ID 207425167, saving filtered observations.
+2024-11-25 10:21:20,230 - INFO - Appended data for TIC ID 207425167 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:21:20,230 - INFO - Fetching data for TIC ID: 229747848
+2024-11-25 10:21:21,237 - INFO - TIC ID: 229747848 - RA: 280.32676142699, Dec: 70.2899407445399
+2024-11-25 10:23:03,992 - INFO - Saved observation data for TIC ID 229747848 to CSV.
+2024-11-25 10:23:03,993 - INFO - Found light curve data for TIC ID 229747848, saving filtered observations.
+2024-11-25 10:23:03,997 - INFO - Appended data for TIC ID 229747848 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:23:03,997 - INFO - Fetching data for TIC ID: 198153540
+2024-11-25 10:23:04,565 - INFO - TIC ID: 198153540 - RA: 211.09410782985, Dec: 46.5193992792302
+2024-11-25 10:23:12,532 - INFO - Saved observation data for TIC ID 198153540 to CSV.
+2024-11-25 10:23:12,533 - INFO - Found light curve data for TIC ID 198153540, saving filtered observations.
+2024-11-25 10:23:12,535 - INFO - Appended data for TIC ID 198153540 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:23:12,535 - INFO - Fetching data for TIC ID: 441739020
+2024-11-25 10:23:13,652 - INFO - TIC ID: 441739020 - RA: 259.017337834163, Dec: 72.1611583689494
+2024-11-25 10:24:55,640 - INFO - Saved observation data for TIC ID 441739020 to CSV.
+2024-11-25 10:24:55,641 - INFO - Found light curve data for TIC ID 441739020, saving filtered observations.
+2024-11-25 10:24:55,645 - INFO - Appended data for TIC ID 441739020 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:24:55,645 - INFO - Fetching data for TIC ID: 259172391
+2024-11-25 10:24:56,942 - INFO - TIC ID: 259172391 - RA: 292.76767546532, Dec: 71.4973873502367
+2024-11-25 10:26:57,522 - INFO - Saved observation data for TIC ID 259172391 to CSV.
+2024-11-25 10:26:57,523 - INFO - Found light curve data for TIC ID 259172391, saving filtered observations.
+2024-11-25 10:26:57,527 - INFO - Appended data for TIC ID 259172391 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:26:57,527 - INFO - Fetching data for TIC ID: 446549906
+2024-11-25 10:26:59,253 - INFO - TIC ID: 446549906 - RA: 286.79650829976, Dec: -58.6967998483977
+2024-11-25 10:27:13,649 - INFO - Saved observation data for TIC ID 446549906 to CSV.
+2024-11-25 10:27:13,650 - INFO - Found light curve data for TIC ID 446549906, saving filtered observations.
+2024-11-25 10:27:13,651 - INFO - Appended data for TIC ID 446549906 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:27:13,651 - INFO - Fetching data for TIC ID: 427320001
+2024-11-25 10:27:16,092 - INFO - TIC ID: 427320001 - RA: 343.853845529662, Dec: 70.2972839876352
+2024-11-25 10:27:50,442 - INFO - Saved observation data for TIC ID 427320001 to CSV.
+2024-11-25 10:27:50,443 - INFO - Found light curve data for TIC ID 427320001, saving filtered observations.
+2024-11-25 10:27:50,445 - INFO - Appended data for TIC ID 427320001 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:27:50,445 - INFO - Fetching data for TIC ID: 236387002
+2024-11-25 10:27:51,430 - INFO - TIC ID: 236387002 - RA: 244.430023052061, Dec: 26.3041816011144
+2024-11-25 10:28:00,556 - INFO - Saved observation data for TIC ID 236387002 to CSV.
+2024-11-25 10:28:00,557 - INFO - Found light curve data for TIC ID 236387002, saving filtered observations.
+2024-11-25 10:28:00,559 - INFO - Appended data for TIC ID 236387002 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:28:00,559 - INFO - Fetching data for TIC ID: 347538174
+2024-11-25 10:28:01,668 - INFO - TIC ID: 347538174 - RA: 247.481602543711, Dec: 21.4951294153715
+2024-11-25 10:28:09,528 - INFO - Saved observation data for TIC ID 347538174 to CSV.
+2024-11-25 10:28:09,528 - INFO - Found light curve data for TIC ID 347538174, saving filtered observations.
+2024-11-25 10:28:09,530 - INFO - Appended data for TIC ID 347538174 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:28:09,530 - INFO - Fetching data for TIC ID: 9828416
+2024-11-25 10:28:10,830 - INFO - TIC ID: 9828416 - RA: 261.096435092307, Dec: 33.205085661548
+2024-11-25 10:28:23,524 - INFO - Saved observation data for TIC ID 9828416 to CSV.
+2024-11-25 10:28:23,525 - INFO - Found light curve data for TIC ID 9828416, saving filtered observations.
+2024-11-25 10:28:23,526 - INFO - Appended data for TIC ID 9828416 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:28:23,526 - INFO - Fetching data for TIC ID: 392476080
+2024-11-25 10:28:24,768 - INFO - TIC ID: 392476080 - RA: 253.186335035264, Dec: 16.5799551682997
+2024-11-25 10:28:27,805 - INFO - Saved observation data for TIC ID 392476080 to CSV.
+2024-11-25 10:28:27,807 - INFO - Found light curve data for TIC ID 392476080, saving filtered observations.
+2024-11-25 10:28:27,809 - INFO - Appended data for TIC ID 392476080 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:28:27,809 - INFO - Fetching data for TIC ID: 389900760
+2024-11-25 10:28:31,263 - INFO - TIC ID: 389900760 - RA: 23.5041332543311, Dec: 65.514915682384
+2024-11-25 10:28:44,451 - INFO - Saved observation data for TIC ID 389900760 to CSV.
+2024-11-25 10:28:44,452 - INFO - Found light curve data for TIC ID 389900760, saving filtered observations.
+2024-11-25 10:28:44,454 - INFO - Appended data for TIC ID 389900760 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:28:44,454 - INFO - Fetching data for TIC ID: 88996391
+2024-11-25 10:28:45,707 - INFO - TIC ID: 88996391 - RA: 263.944454466321, Dec: 36.1965952984547
+2024-11-25 10:29:01,438 - INFO - Saved observation data for TIC ID 88996391 to CSV.
+2024-11-25 10:29:01,439 - INFO - Found light curve data for TIC ID 88996391, saving filtered observations.
+2024-11-25 10:29:01,441 - INFO - Appended data for TIC ID 88996391 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:29:01,441 - INFO - Fetching data for TIC ID: 311408969
+2024-11-25 10:29:02,849 - INFO - TIC ID: 311408969 - RA: 264.273474275868, Dec: 25.731181771119
+2024-11-25 10:29:14,285 - INFO - Saved observation data for TIC ID 311408969 to CSV.
+2024-11-25 10:29:14,285 - INFO - Found light curve data for TIC ID 311408969, saving filtered observations.
+2024-11-25 10:29:14,287 - INFO - Appended data for TIC ID 311408969 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:29:14,287 - INFO - Fetching data for TIC ID: 105840719
+2024-11-25 10:29:19,116 - INFO - TIC ID: 105840719 - RA: 243.941051129153, Dec: 17.0240178743909
+2024-11-25 10:29:23,581 - INFO - Saved observation data for TIC ID 105840719 to CSV.
+2024-11-25 10:29:23,582 - INFO - Found light curve data for TIC ID 105840719, saving filtered observations.
+2024-11-25 10:29:23,584 - INFO - Appended data for TIC ID 105840719 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:29:23,584 - INFO - Fetching data for TIC ID: 159742538
+2024-11-25 10:29:46,309 - INFO - TIC ID: 159742538 - RA: 268.304371159007, Dec: 37.2118294741289
+2024-11-25 10:29:58,015 - INFO - Saved observation data for TIC ID 159742538 to CSV.
+2024-11-25 10:29:58,016 - INFO - Found light curve data for TIC ID 159742538, saving filtered observations.
+2024-11-25 10:29:58,018 - INFO - Appended data for TIC ID 159742538 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:29:58,018 - INFO - Fetching data for TIC ID: 116242971
+2024-11-25 10:29:58,975 - INFO - TIC ID: 116242971 - RA: 267.640491305328, Dec: 36.5702232635205
+2024-11-25 10:30:11,537 - INFO - Saved observation data for TIC ID 116242971 to CSV.
+2024-11-25 10:30:11,538 - INFO - Found light curve data for TIC ID 116242971, saving filtered observations.
+2024-11-25 10:30:11,540 - INFO - Appended data for TIC ID 116242971 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:30:11,540 - INFO - Fetching data for TIC ID: 116264089
+2024-11-25 10:30:12,823 - INFO - TIC ID: 116264089 - RA: 268.029243765147, Dec: 37.5461769450623
+2024-11-25 10:30:25,133 - INFO - Saved observation data for TIC ID 116264089 to CSV.
+2024-11-25 10:30:25,134 - INFO - Found light curve data for TIC ID 116264089, saving filtered observations.
+2024-11-25 10:30:25,136 - INFO - Appended data for TIC ID 116264089 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:30:25,136 - INFO - Fetching data for TIC ID: 21744120
+2024-11-25 10:30:26,143 - INFO - TIC ID: 21744120 - RA: 256.346448270061, Dec: 33.0124830959209
+2024-11-25 10:30:35,025 - INFO - Saved observation data for TIC ID 21744120 to CSV.
+2024-11-25 10:30:35,026 - INFO - Found light curve data for TIC ID 21744120, saving filtered observations.
+2024-11-25 10:30:35,028 - INFO - Appended data for TIC ID 21744120 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:30:35,028 - INFO - Fetching data for TIC ID: 21832928
+2024-11-25 10:30:36,252 - INFO - TIC ID: 21832928 - RA: 256.982623331112, Dec: 32.1054840144448
+2024-11-25 10:30:44,005 - INFO - Saved observation data for TIC ID 21832928 to CSV.
+2024-11-25 10:30:44,006 - INFO - Found light curve data for TIC ID 21832928, saving filtered observations.
+2024-11-25 10:30:44,008 - INFO - Appended data for TIC ID 21832928 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:30:44,008 - INFO - Fetching data for TIC ID: 101721385
+2024-11-25 10:30:44,966 - INFO - TIC ID: 101721385 - RA: 260.116159575642, Dec: 38.2421971287855
+2024-11-25 10:30:57,374 - INFO - Saved observation data for TIC ID 101721385 to CSV.
+2024-11-25 10:30:57,375 - INFO - Found light curve data for TIC ID 101721385, saving filtered observations.
+2024-11-25 10:30:57,377 - INFO - Appended data for TIC ID 101721385 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:30:57,377 - INFO - Fetching data for TIC ID: 320798691
+2024-11-25 10:30:59,149 - INFO - TIC ID: 320798691 - RA: 271.537707929321, Dec: 26.4266638081597
+2024-11-25 10:31:13,249 - INFO - Saved observation data for TIC ID 320798691 to CSV.
+2024-11-25 10:31:13,250 - INFO - Found light curve data for TIC ID 320798691, saving filtered observations.
+2024-11-25 10:31:13,252 - INFO - Appended data for TIC ID 320798691 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:31:13,252 - INFO - Fetching data for TIC ID: 27848472
+2024-11-25 10:31:15,069 - INFO - TIC ID: 27848472 - RA: 278.631773297363, Dec: 35.6615247759849
+2024-11-25 10:31:31,933 - INFO - Saved observation data for TIC ID 27848472 to CSV.
+2024-11-25 10:31:31,934 - INFO - Found light curve data for TIC ID 27848472, saving filtered observations.
+2024-11-25 10:31:31,936 - INFO - Appended data for TIC ID 27848472 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:31:31,936 - INFO - Fetching data for TIC ID: 358516596
+2024-11-25 10:31:36,664 - INFO - TIC ID: 358516596 - RA: 283.305517698675, Dec: 24.1273825714099
+2024-11-25 10:31:47,431 - INFO - Saved observation data for TIC ID 358516596 to CSV.
+2024-11-25 10:31:47,431 - INFO - Found light curve data for TIC ID 358516596, saving filtered observations.
+2024-11-25 10:31:47,433 - INFO - Appended data for TIC ID 358516596 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:31:47,433 - INFO - Fetching data for TIC ID: 39200363
+2024-11-25 10:31:48,871 - INFO - TIC ID: 39200363 - RA: 261.243922407251, Dec: 32.7981203529936
+2024-11-25 10:31:59,206 - INFO - Saved observation data for TIC ID 39200363 to CSV.
+2024-11-25 10:31:59,206 - INFO - Found light curve data for TIC ID 39200363, saving filtered observations.
+2024-11-25 10:31:59,208 - INFO - Appended data for TIC ID 39200363 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:31:59,208 - INFO - Fetching data for TIC ID: 75878355
+2024-11-25 10:32:00,405 - INFO - TIC ID: 75878355 - RA: 271.935199907964, Dec: 39.0741455675824
+2024-11-25 10:32:17,621 - INFO - Saved observation data for TIC ID 75878355 to CSV.
+2024-11-25 10:32:17,622 - INFO - Found light curve data for TIC ID 75878355, saving filtered observations.
+2024-11-25 10:32:17,624 - INFO - Appended data for TIC ID 75878355 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:32:17,624 - INFO - Fetching data for TIC ID: 76419763
+2024-11-25 10:32:19,131 - INFO - TIC ID: 76419763 - RA: 274.405469824244, Dec: 36.6214357180292
+2024-11-25 10:32:46,258 - INFO - Saved observation data for TIC ID 76419763 to CSV.
+2024-11-25 10:32:46,259 - INFO - Found light curve data for TIC ID 76419763, saving filtered observations.
+2024-11-25 10:32:46,261 - INFO - Appended data for TIC ID 76419763 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:32:46,261 - INFO - Fetching data for TIC ID: 336128819
+2024-11-25 10:32:48,192 - INFO - TIC ID: 336128819 - RA: 281.176524484804, Dec: 36.562368209087
+2024-11-25 10:33:10,998 - INFO - Saved observation data for TIC ID 336128819 to CSV.
+2024-11-25 10:33:10,999 - INFO - Found light curve data for TIC ID 336128819, saving filtered observations.
+2024-11-25 10:33:11,000 - INFO - Appended data for TIC ID 336128819 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:33:11,000 - INFO - Fetching data for TIC ID: 23059280
+2024-11-25 10:33:12,546 - INFO - TIC ID: 23059280 - RA: 274.143862000885, Dec: 34.1730512931288
+2024-11-25 10:33:33,941 - INFO - Saved observation data for TIC ID 23059280 to CSV.
+2024-11-25 10:33:33,942 - INFO - Found light curve data for TIC ID 23059280, saving filtered observations.
+2024-11-25 10:33:33,944 - INFO - Appended data for TIC ID 23059280 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:33:33,944 - INFO - Fetching data for TIC ID: 308172249
+2024-11-25 10:33:35,400 - INFO - TIC ID: 308172249 - RA: 267.284974996126, Dec: 29.8790948742272
+2024-11-25 10:33:45,464 - INFO - Saved observation data for TIC ID 308172249 to CSV.
+2024-11-25 10:33:45,465 - INFO - Found light curve data for TIC ID 308172249, saving filtered observations.
+2024-11-25 10:33:45,467 - INFO - Appended data for TIC ID 308172249 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:33:45,467 - INFO - Fetching data for TIC ID: 399860444
+2024-11-25 10:33:47,108 - INFO - TIC ID: 399860444 - RA: 286.808491321665, Dec: 49.3164141375899
+2024-11-25 10:34:22,095 - INFO - Saved observation data for TIC ID 399860444 to CSV.
+2024-11-25 10:34:22,096 - INFO - Found light curve data for TIC ID 399860444, saving filtered observations.
+2024-11-25 10:34:22,098 - INFO - Appended data for TIC ID 399860444 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:34:22,098 - INFO - Fetching data for TIC ID: 287256467
+2024-11-25 10:34:23,340 - INFO - TIC ID: 287256467 - RA: 258.762109214843, Dec: 18.3407682366568
+2024-11-25 10:34:28,882 - INFO - Saved observation data for TIC ID 287256467 to CSV.
+2024-11-25 10:34:28,883 - INFO - Found light curve data for TIC ID 287256467, saving filtered observations.
+2024-11-25 10:34:28,884 - INFO - Appended data for TIC ID 287256467 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:34:28,884 - INFO - Fetching data for TIC ID: 44313455
+2024-11-25 10:34:30,702 - INFO - TIC ID: 44313455 - RA: 267.04687003174, Dec: 15.9796508640557
+2024-11-25 10:34:35,148 - INFO - Saved observation data for TIC ID 44313455 to CSV.
+2024-11-25 10:34:35,149 - INFO - Found light curve data for TIC ID 44313455, saving filtered observations.
+2024-11-25 10:34:35,151 - INFO - Appended data for TIC ID 44313455 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:34:35,151 - INFO - Fetching data for TIC ID: 103195323
+2024-11-25 10:34:36,604 - INFO - TIC ID: 103195323 - RA: 62.5730480545792, Dec: 75.1709010806333
+2024-11-25 10:34:53,322 - INFO - Saved observation data for TIC ID 103195323 to CSV.
+2024-11-25 10:34:53,323 - INFO - Found light curve data for TIC ID 103195323, saving filtered observations.
+2024-11-25 10:34:53,325 - INFO - Appended data for TIC ID 103195323 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:34:53,325 - INFO - Fetching data for TIC ID: 428988981
+2024-11-25 10:34:54,928 - INFO - TIC ID: 428988981 - RA: 350.251398770119, Dec: 79.4414478723286
+2024-11-25 10:35:21,967 - INFO - Saved observation data for TIC ID 428988981 to CSV.
+2024-11-25 10:35:21,968 - INFO - Found light curve data for TIC ID 428988981, saving filtered observations.
+2024-11-25 10:35:21,970 - INFO - Appended data for TIC ID 428988981 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:35:21,970 - INFO - Fetching data for TIC ID: 88992642
+2024-11-25 10:35:23,121 - INFO - TIC ID: 88992642 - RA: 263.758112321375, Dec: 40.6950569724693
+2024-11-25 10:35:35,312 - INFO - Saved observation data for TIC ID 88992642 to CSV.
+2024-11-25 10:35:35,313 - INFO - Found light curve data for TIC ID 88992642, saving filtered observations.
+2024-11-25 10:35:35,314 - INFO - Appended data for TIC ID 88992642 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:35:35,314 - INFO - Fetching data for TIC ID: 341630071
+2024-11-25 10:35:36,176 - INFO - TIC ID: 341630071 - RA: 155.642303330357, Dec: 83.0837166583663
+2024-11-25 10:35:56,723 - INFO - Saved observation data for TIC ID 341630071 to CSV.
+2024-11-25 10:35:56,723 - INFO - Found light curve data for TIC ID 341630071, saving filtered observations.
+2024-11-25 10:35:56,725 - INFO - Appended data for TIC ID 341630071 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:35:56,725 - INFO - Fetching data for TIC ID: 1716467085
+2024-11-25 10:35:58,765 - INFO - TIC ID: 1716467085 - RA: 285.596430422281, Dec: 42.5073472525687
+2024-11-25 10:36:21,921 - INFO - Saved observation data for TIC ID 1716467085 to CSV.
+2024-11-25 10:36:21,922 - INFO - Found light curve data for TIC ID 1716467085, saving filtered observations.
+2024-11-25 10:36:21,924 - INFO - Appended data for TIC ID 1716467085 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:36:21,924 - INFO - Fetching data for TIC ID: 395393265
+2024-11-25 10:36:23,360 - INFO - TIC ID: 395393265 - RA: 26.3384089865894, Dec: 77.7901731673135
+2024-11-25 10:36:39,235 - INFO - Saved observation data for TIC ID 395393265 to CSV.
+2024-11-25 10:36:39,235 - INFO - Found light curve data for TIC ID 395393265, saving filtered observations.
+2024-11-25 10:36:39,237 - INFO - Appended data for TIC ID 395393265 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:36:39,237 - INFO - Fetching data for TIC ID: 428787891
+2024-11-25 10:36:40,256 - INFO - TIC ID: 428787891 - RA: 71.0286209790178, Dec: 84.3641997251497
+2024-11-25 10:37:01,168 - INFO - Saved observation data for TIC ID 428787891 to CSV.
+2024-11-25 10:37:01,169 - INFO - Found light curve data for TIC ID 428787891, saving filtered observations.
+2024-11-25 10:37:01,171 - INFO - Appended data for TIC ID 428787891 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:37:01,171 - INFO - Fetching data for TIC ID: 461591646
+2024-11-25 10:37:02,454 - INFO - TIC ID: 461591646 - RA: 5.79927818219479, Dec: 84.4528445468691
+2024-11-25 10:37:39,189 - INFO - Saved observation data for TIC ID 461591646 to CSV.
+2024-11-25 10:37:39,190 - INFO - Found light curve data for TIC ID 461591646, saving filtered observations.
+2024-11-25 10:37:39,192 - INFO - Appended data for TIC ID 461591646 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:37:39,192 - INFO - Fetching data for TIC ID: 298495970
+2024-11-25 10:37:40,367 - INFO - TIC ID: 298495970 - RA: 261.717928545154, Dec: 25.8493190315745
+2024-11-25 10:37:50,051 - INFO - Saved observation data for TIC ID 298495970 to CSV.
+2024-11-25 10:37:50,052 - INFO - Found light curve data for TIC ID 298495970, saving filtered observations.
+2024-11-25 10:37:50,053 - INFO - Appended data for TIC ID 298495970 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:37:50,053 - INFO - Fetching data for TIC ID: 342642208
+2024-11-25 10:37:53,561 - INFO - TIC ID: 342642208 - RA: 276.81025499474, Dec: 20.5268528507185
+2024-11-25 10:38:01,012 - INFO - Saved observation data for TIC ID 342642208 to CSV.
+2024-11-25 10:38:01,013 - INFO - Found light curve data for TIC ID 342642208, saving filtered observations.
+2024-11-25 10:38:01,014 - INFO - Appended data for TIC ID 342642208 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:38:01,014 - INFO - Fetching data for TIC ID: 270515566
+2024-11-25 10:38:02,177 - INFO - TIC ID: 270515566 - RA: 264.454111016623, Dec: 47.2302469072258
+2024-11-25 10:38:14,701 - INFO - Saved observation data for TIC ID 270515566 to CSV.
+2024-11-25 10:38:14,702 - INFO - Found light curve data for TIC ID 270515566, saving filtered observations.
+2024-11-25 10:38:14,704 - INFO - Appended data for TIC ID 270515566 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:38:14,704 - INFO - Fetching data for TIC ID: 284477310
+2024-11-25 10:38:16,339 - INFO - TIC ID: 284477310 - RA: 291.126117686624, Dec: 56.8812662665855
+2024-11-25 10:39:32,017 - INFO - Saved observation data for TIC ID 284477310 to CSV.
+2024-11-25 10:39:32,018 - INFO - Found light curve data for TIC ID 284477310, saving filtered observations.
+2024-11-25 10:39:32,020 - INFO - Appended data for TIC ID 284477310 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:39:32,021 - INFO - Fetching data for TIC ID: 43429656
+2024-11-25 10:39:33,397 - INFO - TIC ID: 43429656 - RA: 261.44094327008, Dec: 23.056955480272
+2024-11-25 10:39:39,932 - INFO - Saved observation data for TIC ID 43429656 to CSV.
+2024-11-25 10:39:39,933 - INFO - Found light curve data for TIC ID 43429656, saving filtered observations.
+2024-11-25 10:39:39,935 - INFO - Appended data for TIC ID 43429656 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:39:39,935 - INFO - Fetching data for TIC ID: 73560357
+2024-11-25 10:39:45,574 - INFO - TIC ID: 73560357 - RA: 281.405745842107, Dec: 16.4153523492671
+2024-11-25 10:39:50,378 - INFO - Saved observation data for TIC ID 73560357 to CSV.
+2024-11-25 10:39:50,378 - INFO - Found light curve data for TIC ID 73560357, saving filtered observations.
+2024-11-25 10:39:50,380 - INFO - Appended data for TIC ID 73560357 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:39:50,380 - INFO - Fetching data for TIC ID: 233680651
+2024-11-25 10:39:51,146 - INFO - TIC ID: 233680651 - RA: 260.303071244835, Dec: 63.2393655656699
+2024-11-25 10:41:24,620 - INFO - Saved observation data for TIC ID 233680651 to CSV.
+2024-11-25 10:41:24,621 - INFO - Found light curve data for TIC ID 233680651, saving filtered observations.
+2024-11-25 10:41:24,624 - INFO - Appended data for TIC ID 233680651 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:41:24,624 - INFO - Fetching data for TIC ID: 8516795
+2024-11-25 10:41:28,282 - INFO - TIC ID: 8516795 - RA: 279.17008640102, Dec: 23.2587524942677
+2024-11-25 10:41:35,664 - INFO - Saved observation data for TIC ID 8516795 to CSV.
+2024-11-25 10:41:35,665 - INFO - Found light curve data for TIC ID 8516795, saving filtered observations.
+2024-11-25 10:41:35,667 - INFO - Appended data for TIC ID 8516795 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:41:35,667 - INFO - Fetching data for TIC ID: 154741689
+2024-11-25 10:41:36,729 - INFO - TIC ID: 154741689 - RA: 164.310542648518, Dec: 89.0869765884534
+2024-11-25 10:41:55,674 - INFO - Saved observation data for TIC ID 154741689 to CSV.
+2024-11-25 10:41:55,675 - INFO - Found light curve data for TIC ID 154741689, saving filtered observations.
+2024-11-25 10:41:55,677 - INFO - Appended data for TIC ID 154741689 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:41:55,677 - INFO - Fetching data for TIC ID: 75656058
+2024-11-25 10:41:58,392 - INFO - TIC ID: 75656058 - RA: 270.898702620647, Dec: 38.0735409300695
+2024-11-25 10:42:13,873 - INFO - Saved observation data for TIC ID 75656058 to CSV.
+2024-11-25 10:42:13,873 - INFO - Found light curve data for TIC ID 75656058, saving filtered observations.
+2024-11-25 10:42:13,876 - INFO - Appended data for TIC ID 75656058 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:42:13,876 - INFO - Fetching data for TIC ID: 76197937
+2024-11-25 10:42:15,485 - INFO - TIC ID: 76197937 - RA: 273.702760308938, Dec: 37.6301109987329
+2024-11-25 10:42:34,716 - INFO - Saved observation data for TIC ID 76197937 to CSV.
+2024-11-25 10:42:34,717 - INFO - Found light curve data for TIC ID 76197937, saving filtered observations.
+2024-11-25 10:42:34,718 - INFO - Appended data for TIC ID 76197937 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:42:34,718 - INFO - Fetching data for TIC ID: 159815224
+2024-11-25 10:42:36,016 - INFO - TIC ID: 159815224 - RA: 268.824209977384, Dec: 40.1675024267609
+2024-11-25 10:42:49,615 - INFO - Saved observation data for TIC ID 159815224 to CSV.
+2024-11-25 10:42:49,616 - INFO - Found light curve data for TIC ID 159815224, saving filtered observations.
+2024-11-25 10:42:49,617 - INFO - Appended data for TIC ID 159815224 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:42:49,618 - INFO - Fetching data for TIC ID: 405717754
+2024-11-25 10:42:51,299 - INFO - TIC ID: 405717754 - RA: 286.243425379975, Dec: 50.0403531713042
+2024-11-25 10:43:48,828 - INFO - Saved observation data for TIC ID 405717754 to CSV.
+2024-11-25 10:43:48,829 - INFO - Found light curve data for TIC ID 405717754, saving filtered observations.
+2024-11-25 10:43:48,831 - INFO - Appended data for TIC ID 405717754 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:43:48,831 - INFO - Fetching data for TIC ID: 123495874
+2024-11-25 10:43:50,749 - INFO - TIC ID: 123495874 - RA: 282.629655494206, Dec: 46.3233313894393
+2024-11-25 10:44:23,010 - INFO - Saved observation data for TIC ID 123495874 to CSV.
+2024-11-25 10:44:23,011 - INFO - Found light curve data for TIC ID 123495874, saving filtered observations.
+2024-11-25 10:44:23,013 - INFO - Appended data for TIC ID 123495874 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:44:23,013 - INFO - Fetching data for TIC ID: 123233041
+2024-11-25 10:44:24,667 - INFO - TIC ID: 123233041 - RA: 281.288120713294, Dec: 42.4510809768027
+2024-11-25 10:44:58,612 - INFO - Saved observation data for TIC ID 123233041 to CSV.
+2024-11-25 10:44:58,613 - INFO - Found light curve data for TIC ID 123233041, saving filtered observations.
+2024-11-25 10:44:58,615 - INFO - Appended data for TIC ID 123233041 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:44:58,615 - INFO - Fetching data for TIC ID: 164892194
+2024-11-25 10:45:00,446 - INFO - TIC ID: 164892194 - RA: 285.240847646102, Dec: 46.6682402452575
+2024-11-25 10:45:26,042 - INFO - Saved observation data for TIC ID 164892194 to CSV.
+2024-11-25 10:45:26,043 - INFO - Found light curve data for TIC ID 164892194, saving filtered observations.
+2024-11-25 10:45:26,045 - INFO - Appended data for TIC ID 164892194 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:45:26,045 - INFO - Fetching data for TIC ID: 237913194
+2024-11-25 10:45:26,927 - INFO - TIC ID: 237913194 - RA: 22.4456525767582, Dec: -60.7399549074449
+2024-11-25 10:45:32,704 - INFO - Saved observation data for TIC ID 237913194 to CSV.
+2024-11-25 10:45:32,705 - INFO - Found light curve data for TIC ID 237913194, saving filtered observations.
+2024-11-25 10:45:32,707 - INFO - Appended data for TIC ID 237913194 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:45:32,707 - INFO - Fetching data for TIC ID: 298663873
+2024-11-25 10:45:34,012 - INFO - TIC ID: 298663873 - RA: 277.943712562241, Dec: 56.6508519923805
+2024-11-25 10:46:50,954 - INFO - Saved observation data for TIC ID 298663873 to CSV.
+2024-11-25 10:46:50,955 - INFO - Found light curve data for TIC ID 298663873, saving filtered observations.
+2024-11-25 10:46:50,959 - INFO - Appended data for TIC ID 298663873 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:46:50,959 - INFO - Fetching data for TIC ID: 233068569
+2024-11-25 10:46:52,224 - INFO - TIC ID: 233068569 - RA: 270.558202316448, Dec: 63.5496189510982
+2024-11-25 10:49:04,214 - INFO - Saved observation data for TIC ID 233068569 to CSV.
+2024-11-25 10:49:04,215 - INFO - Found light curve data for TIC ID 233068569, saving filtered observations.
+2024-11-25 10:49:04,218 - INFO - Appended data for TIC ID 233068569 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:49:04,218 - INFO - Fetching data for TIC ID: 268823307
+2024-11-25 10:49:09,185 - INFO - TIC ID: 268823307 - RA: 299.407035340031, Dec: 44.0350526469195
+2024-11-25 10:49:50,241 - INFO - Saved observation data for TIC ID 268823307 to CSV.
+2024-11-25 10:49:50,242 - INFO - Found light curve data for TIC ID 268823307, saving filtered observations.
+2024-11-25 10:49:50,244 - INFO - Appended data for TIC ID 268823307 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:49:50,244 - INFO - Fetching data for TIC ID: 1715469662
+2024-11-25 10:49:52,385 - INFO - TIC ID: 1715469662 - RA: 283.489782346597, Dec: 37.380636402082
+2024-11-25 10:50:20,558 - INFO - Saved observation data for TIC ID 1715469662 to CSV.
+2024-11-25 10:50:20,559 - INFO - Found light curve data for TIC ID 1715469662, saving filtered observations.
+2024-11-25 10:50:20,561 - INFO - Appended data for TIC ID 1715469662 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:50:20,561 - INFO - Fetching data for TIC ID: 272236017
+2024-11-25 10:50:22,141 - INFO - TIC ID: 272236017 - RA: 117.867647604793, Dec: -72.2850988197568
+2024-11-25 10:51:46,563 - INFO - Saved observation data for TIC ID 272236017 to CSV.
+2024-11-25 10:51:46,563 - INFO - Found light curve data for TIC ID 272236017, saving filtered observations.
+2024-11-25 10:51:46,566 - INFO - Appended data for TIC ID 272236017 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:51:46,566 - INFO - Fetching data for TIC ID: 406318573
+2024-11-25 10:51:47,553 - INFO - TIC ID: 406318573 - RA: 326.582863829059, Dec: -61.1078444302581
+2024-11-25 10:51:56,149 - INFO - Saved observation data for TIC ID 406318573 to CSV.
+2024-11-25 10:51:56,149 - INFO - Found light curve data for TIC ID 406318573, saving filtered observations.
+2024-11-25 10:51:56,151 - INFO - Appended data for TIC ID 406318573 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:51:56,151 - INFO - Fetching data for TIC ID: 280803917
+2024-11-25 10:51:56,987 - INFO - TIC ID: 280803917 - RA: 44.5293570602414, Dec: -66.9491611298049
+2024-11-25 10:52:20,485 - INFO - Saved observation data for TIC ID 280803917 to CSV.
+2024-11-25 10:52:20,485 - INFO - Found light curve data for TIC ID 280803917, saving filtered observations.
+2024-11-25 10:52:20,487 - INFO - Appended data for TIC ID 280803917 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:52:20,487 - INFO - Fetching data for TIC ID: 212253390
+2024-11-25 10:52:21,860 - INFO - TIC ID: 212253390 - RA: 308.538681973734, Dec: -29.6721107542181
+2024-11-25 10:52:26,081 - INFO - Saved observation data for TIC ID 212253390 to CSV.
+2024-11-25 10:52:26,082 - INFO - Found light curve data for TIC ID 212253390, saving filtered observations.
+2024-11-25 10:52:26,083 - INFO - Appended data for TIC ID 212253390 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:52:26,083 - INFO - Fetching data for TIC ID: 317089588
+2024-11-25 10:52:27,115 - INFO - TIC ID: 317089588 - RA: 347.462557036381, Dec: -79.699935515214
+2024-11-25 10:52:37,572 - INFO - Saved observation data for TIC ID 317089588 to CSV.
+2024-11-25 10:52:37,573 - INFO - Found light curve data for TIC ID 317089588, saving filtered observations.
+2024-11-25 10:52:37,574 - INFO - Appended data for TIC ID 317089588 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:52:37,574 - INFO - Fetching data for TIC ID: 271806353
+2024-11-25 10:52:38,877 - INFO - TIC ID: 271806353 - RA: 111.442601047701, Dec: -77.776673296016
+2024-11-25 10:53:18,367 - INFO - Saved observation data for TIC ID 271806353 to CSV.
+2024-11-25 10:53:18,368 - INFO - Found light curve data for TIC ID 271806353, saving filtered observations.
+2024-11-25 10:53:18,370 - INFO - Appended data for TIC ID 271806353 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:53:18,371 - INFO - Fetching data for TIC ID: 38680052
+2024-11-25 10:53:19,283 - INFO - TIC ID: 38680052 - RA: 65.5286950074826, Dec: -61.3687278545425
+2024-11-25 10:54:00,772 - INFO - Saved observation data for TIC ID 38680052 to CSV.
+2024-11-25 10:54:00,773 - INFO - Found light curve data for TIC ID 38680052, saving filtered observations.
+2024-11-25 10:54:00,775 - INFO - Appended data for TIC ID 38680052 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:54:00,775 - INFO - Fetching data for TIC ID: 90850770
+2024-11-25 10:54:02,218 - INFO - TIC ID: 90850770 - RA: 307.596595321359, Dec: -44.8875073106825
+2024-11-25 10:54:06,877 - INFO - Saved observation data for TIC ID 90850770 to CSV.
+2024-11-25 10:54:06,878 - INFO - Found light curve data for TIC ID 90850770, saving filtered observations.
+2024-11-25 10:54:06,879 - INFO - Appended data for TIC ID 90850770 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:54:06,879 - INFO - Fetching data for TIC ID: 381856447
+2024-11-25 10:54:07,948 - INFO - TIC ID: 381856447 - RA: 322.252873294596, Dec: -58.8361947133724
+2024-11-25 10:54:18,881 - INFO - Saved observation data for TIC ID 381856447 to CSV.
+2024-11-25 10:54:18,882 - INFO - Found light curve data for TIC ID 381856447, saving filtered observations.
+2024-11-25 10:54:18,883 - INFO - Appended data for TIC ID 381856447 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:54:18,883 - INFO - Fetching data for TIC ID: 260298958
+2024-11-25 10:54:19,960 - INFO - TIC ID: 260298958 - RA: 94.3157004766516, Dec: -56.5099782496915
+2024-11-25 10:55:13,580 - INFO - Saved observation data for TIC ID 260298958 to CSV.
+2024-11-25 10:55:13,581 - INFO - Found light curve data for TIC ID 260298958, saving filtered observations.
+2024-11-25 10:55:13,584 - INFO - Appended data for TIC ID 260298958 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:55:13,584 - INFO - Fetching data for TIC ID: 467971286
+2024-11-25 10:55:15,636 - INFO - TIC ID: 467971286 - RA: 289.297350465907, Dec: -60.8916829029798
+2024-11-25 10:55:24,067 - INFO - Saved observation data for TIC ID 467971286 to CSV.
+2024-11-25 10:55:24,069 - INFO - Found light curve data for TIC ID 467971286, saving filtered observations.
+2024-11-25 10:55:24,070 - INFO - Appended data for TIC ID 467971286 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:55:24,070 - INFO - Fetching data for TIC ID: 355600246
+2024-11-25 10:55:25,224 - INFO - TIC ID: 355600246 - RA: 325.104555056533, Dec: -54.0342131829277
+2024-11-25 10:55:33,514 - INFO - Saved observation data for TIC ID 355600246 to CSV.
+2024-11-25 10:55:33,515 - INFO - Found light curve data for TIC ID 355600246, saving filtered observations.
+2024-11-25 10:55:33,517 - INFO - Appended data for TIC ID 355600246 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:55:33,517 - INFO - Fetching data for TIC ID: 358107516
+2024-11-25 10:55:34,452 - INFO - TIC ID: 358107516 - RA: 51.2285897666038, Dec: -73.9575737779209
+2024-11-25 10:56:01,937 - INFO - Saved observation data for TIC ID 358107516 to CSV.
+2024-11-25 10:56:01,938 - INFO - Found light curve data for TIC ID 358107516, saving filtered observations.
+2024-11-25 10:56:01,940 - INFO - Appended data for TIC ID 358107516 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:56:01,940 - INFO - Fetching data for TIC ID: 219306934
+2024-11-25 10:56:02,994 - INFO - TIC ID: 219306934 - RA: 316.669506556605, Dec: -57.5780349338569
+2024-11-25 10:56:07,041 - INFO - Saved observation data for TIC ID 219306934 to CSV.
+2024-11-25 10:56:07,041 - INFO - Found light curve data for TIC ID 219306934, saving filtered observations.
+2024-11-25 10:56:07,043 - INFO - Appended data for TIC ID 219306934 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:56:07,043 - INFO - Fetching data for TIC ID: 142105158
+2024-11-25 10:56:08,780 - INFO - TIC ID: 142105158 - RA: 98.7832877104177, Dec: -72.4567985373425
+2024-11-25 10:57:05,976 - INFO - Saved observation data for TIC ID 142105158 to CSV.
+2024-11-25 10:57:05,977 - INFO - Found light curve data for TIC ID 142105158, saving filtered observations.
+2024-11-25 10:57:05,980 - INFO - Appended data for TIC ID 142105158 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:57:05,980 - INFO - Fetching data for TIC ID: 369455629
+2024-11-25 10:57:07,167 - INFO - TIC ID: 369455629 - RA: 311.673166134524, Dec: -41.820889595959
+2024-11-25 10:57:12,394 - INFO - Saved observation data for TIC ID 369455629 to CSV.
+2024-11-25 10:57:12,395 - INFO - Found light curve data for TIC ID 369455629, saving filtered observations.
+2024-11-25 10:57:12,397 - INFO - Appended data for TIC ID 369455629 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:57:12,397 - INFO - Fetching data for TIC ID: 100566492
+2024-11-25 10:57:14,294 - INFO - TIC ID: 100566492 - RA: 309.511195832518, Dec: -48.4620626360429
+2024-11-25 10:57:26,486 - INFO - Saved observation data for TIC ID 100566492 to CSV.
+2024-11-25 10:57:26,487 - INFO - Found light curve data for TIC ID 100566492, saving filtered observations.
+2024-11-25 10:57:26,489 - INFO - Appended data for TIC ID 100566492 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:57:26,489 - INFO - Fetching data for TIC ID: 389352124
+2024-11-25 10:57:27,841 - INFO - TIC ID: 389352124 - RA: 311.042586458398, Dec: -39.2252386963115
+2024-11-25 10:57:32,057 - INFO - Saved observation data for TIC ID 389352124 to CSV.
+2024-11-25 10:57:32,057 - INFO - Found light curve data for TIC ID 389352124, saving filtered observations.
+2024-11-25 10:57:32,058 - INFO - Appended data for TIC ID 389352124 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:57:32,058 - INFO - Fetching data for TIC ID: 372172128
+2024-11-25 10:57:33,208 - INFO - TIC ID: 372172128 - RA: 312.339863589865, Dec: -70.4849862439619
+2024-11-25 10:57:37,705 - INFO - Saved observation data for TIC ID 372172128 to CSV.
+2024-11-25 10:57:37,706 - INFO - Found light curve data for TIC ID 372172128, saving filtered observations.
+2024-11-25 10:57:37,708 - INFO - Appended data for TIC ID 372172128 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:57:37,708 - INFO - Fetching data for TIC ID: 24695044
+2024-11-25 10:57:38,632 - INFO - TIC ID: 24695044 - RA: 34.8403329158875, Dec: -72.7086540547897
+2024-11-25 10:57:54,922 - INFO - Saved observation data for TIC ID 24695044 to CSV.
+2024-11-25 10:57:54,922 - INFO - Found light curve data for TIC ID 24695044, saving filtered observations.
+2024-11-25 10:57:54,924 - INFO - Appended data for TIC ID 24695044 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:57:54,924 - INFO - Fetching data for TIC ID: 271478281
+2024-11-25 10:57:56,478 - INFO - TIC ID: 271478281 - RA: 299.15427555454, Dec: -31.3353176998663
+2024-11-25 10:57:59,494 - INFO - Saved observation data for TIC ID 271478281 to CSV.
+2024-11-25 10:57:59,495 - INFO - Found light curve data for TIC ID 271478281, saving filtered observations.
+2024-11-25 10:57:59,497 - INFO - Appended data for TIC ID 271478281 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:57:59,497 - INFO - Fetching data for TIC ID: 401604346
+2024-11-25 10:58:00,435 - INFO - TIC ID: 401604346 - RA: 313.691266619487, Dec: -72.804636915693
+2024-11-25 10:58:09,413 - INFO - Saved observation data for TIC ID 401604346 to CSV.
+2024-11-25 10:58:09,414 - INFO - Found light curve data for TIC ID 401604346, saving filtered observations.
+2024-11-25 10:58:09,415 - INFO - Appended data for TIC ID 401604346 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:58:09,415 - INFO - Fetching data for TIC ID: 277890574
+2024-11-25 10:58:10,530 - INFO - TIC ID: 277890574 - RA: 353.281226330216, Dec: -76.8191678677892
+2024-11-25 10:58:21,637 - INFO - Saved observation data for TIC ID 277890574 to CSV.
+2024-11-25 10:58:21,637 - INFO - Found light curve data for TIC ID 277890574, saving filtered observations.
+2024-11-25 10:58:21,639 - INFO - Appended data for TIC ID 277890574 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:58:21,639 - INFO - Fetching data for TIC ID: 262471759
+2024-11-25 10:58:22,859 - INFO - TIC ID: 262471759 - RA: 313.402895622486, Dec: -36.82153634536
+2024-11-25 10:58:29,166 - INFO - Saved observation data for TIC ID 262471759 to CSV.
+2024-11-25 10:58:29,167 - INFO - Found light curve data for TIC ID 262471759, saving filtered observations.
+2024-11-25 10:58:29,168 - INFO - Appended data for TIC ID 262471759 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:58:29,168 - INFO - Fetching data for TIC ID: 389421473
+2024-11-25 10:58:29,985 - INFO - TIC ID: 389421473 - RA: 311.751119386233, Dec: -38.6705909372195
+2024-11-25 10:58:36,259 - INFO - Saved observation data for TIC ID 389421473 to CSV.
+2024-11-25 10:58:36,260 - INFO - Found light curve data for TIC ID 389421473, saving filtered observations.
+2024-11-25 10:58:36,263 - INFO - Appended data for TIC ID 389421473 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:58:36,263 - INFO - Fetching data for TIC ID: 270342589
+2024-11-25 10:58:37,330 - INFO - TIC ID: 270342589 - RA: 34.0853708401285, Dec: -78.7007148269991
+2024-11-25 10:58:52,561 - INFO - Saved observation data for TIC ID 270342589 to CSV.
+2024-11-25 10:58:52,562 - INFO - Found light curve data for TIC ID 270342589, saving filtered observations.
+2024-11-25 10:58:52,564 - INFO - Appended data for TIC ID 270342589 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:58:52,564 - INFO - Fetching data for TIC ID: 260797169
+2024-11-25 10:58:53,330 - INFO - TIC ID: 260797169 - RA: 347.943889231704, Dec: -69.8541875762595
+2024-11-25 10:59:04,940 - INFO - Saved observation data for TIC ID 260797169 to CSV.
+2024-11-25 10:59:04,940 - INFO - Found light curve data for TIC ID 260797169, saving filtered observations.
+2024-11-25 10:59:04,942 - INFO - Appended data for TIC ID 260797169 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:59:04,942 - INFO - Fetching data for TIC ID: 270472265
+2024-11-25 10:59:06,152 - INFO - TIC ID: 270472265 - RA: 96.9408499311044, Dec: -79.4098944355935
+2024-11-25 10:59:43,767 - INFO - Saved observation data for TIC ID 270472265 to CSV.
+2024-11-25 10:59:43,768 - INFO - Found light curve data for TIC ID 270472265, saving filtered observations.
+2024-11-25 10:59:43,770 - INFO - Appended data for TIC ID 270472265 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:59:43,770 - INFO - Fetching data for TIC ID: 238171173
+2024-11-25 10:59:44,660 - INFO - TIC ID: 238171173 - RA: 357.002092962195, Dec: -68.4876579458387
+2024-11-25 10:59:51,986 - INFO - Saved observation data for TIC ID 238171173 to CSV.
+2024-11-25 10:59:51,987 - INFO - Found light curve data for TIC ID 238171173, saving filtered observations.
+2024-11-25 10:59:51,989 - INFO - Appended data for TIC ID 238171173 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 10:59:51,989 - INFO - Fetching data for TIC ID: 355096431
+2024-11-25 10:59:53,271 - INFO - TIC ID: 355096431 - RA: 314.576668797507, Dec: -40.2685502703349
+2024-11-25 11:00:00,969 - INFO - Saved observation data for TIC ID 355096431 to CSV.
+2024-11-25 11:00:00,969 - INFO - Found light curve data for TIC ID 355096431, saving filtered observations.
+2024-11-25 11:00:00,971 - INFO - Appended data for TIC ID 355096431 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:00:00,971 - INFO - Fetching data for TIC ID: 176956893
+2024-11-25 11:00:02,454 - INFO - TIC ID: 176956893 - RA: 100.833098986818, Dec: -66.9476756192371
+2024-11-25 11:01:36,187 - INFO - Saved observation data for TIC ID 176956893 to CSV.
+2024-11-25 11:01:36,188 - INFO - Found light curve data for TIC ID 176956893, saving filtered observations.
+2024-11-25 11:01:36,191 - INFO - Appended data for TIC ID 176956893 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:01:36,191 - INFO - Fetching data for TIC ID: 271891552
+2024-11-25 11:01:37,621 - INFO - TIC ID: 271891552 - RA: 112.767445071606, Dec: -72.6674524517343
+2024-11-25 11:02:59,217 - INFO - Saved observation data for TIC ID 271891552 to CSV.
+2024-11-25 11:02:59,218 - INFO - Found light curve data for TIC ID 271891552, saving filtered observations.
+2024-11-25 11:02:59,221 - INFO - Appended data for TIC ID 271891552 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:02:59,221 - INFO - Fetching data for TIC ID: 403135192
+2024-11-25 11:02:59,974 - INFO - TIC ID: 403135192 - RA: 333.559112115867, Dec: -59.5683596757668
+2024-11-25 11:03:06,316 - INFO - Saved observation data for TIC ID 403135192 to CSV.
+2024-11-25 11:03:06,317 - INFO - Found light curve data for TIC ID 403135192, saving filtered observations.
+2024-11-25 11:03:06,318 - INFO - Appended data for TIC ID 403135192 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:03:06,318 - INFO - Fetching data for TIC ID: 388198242
+2024-11-25 11:03:07,218 - INFO - TIC ID: 388198242 - RA: 61.2430546803192, Dec: -78.3748366950582
+2024-11-25 11:03:44,398 - INFO - Saved observation data for TIC ID 388198242 to CSV.
+2024-11-25 11:03:44,399 - INFO - Found light curve data for TIC ID 388198242, saving filtered observations.
+2024-11-25 11:03:44,401 - INFO - Appended data for TIC ID 388198242 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:03:44,401 - INFO - Fetching data for TIC ID: 425561347
+2024-11-25 11:03:50,368 - INFO - TIC ID: 425561347 - RA: 286.073163147995, Dec: -32.3542527080679
+2024-11-25 11:03:53,628 - INFO - Saved observation data for TIC ID 425561347 to CSV.
+2024-11-25 11:03:53,629 - INFO - Found light curve data for TIC ID 425561347, saving filtered observations.
+2024-11-25 11:03:53,631 - INFO - Appended data for TIC ID 425561347 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:03:53,631 - INFO - Fetching data for TIC ID: 273695332
+2024-11-25 11:03:54,666 - INFO - TIC ID: 273695332 - RA: 18.6890189850563, Dec: -81.9821758736148
+2024-11-25 11:04:11,933 - INFO - Saved observation data for TIC ID 273695332 to CSV.
+2024-11-25 11:04:11,934 - INFO - Found light curve data for TIC ID 273695332, saving filtered observations.
+2024-11-25 11:04:11,936 - INFO - Appended data for TIC ID 273695332 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:04:11,936 - INFO - Fetching data for TIC ID: 306510653
+2024-11-25 11:04:13,461 - INFO - TIC ID: 306510653 - RA: 119.185257115495, Dec: -67.0719419153285
+2024-11-25 11:04:59,282 - INFO - Saved observation data for TIC ID 306510653 to CSV.
+2024-11-25 11:04:59,283 - INFO - Found light curve data for TIC ID 306510653, saving filtered observations.
+2024-11-25 11:04:59,286 - INFO - Appended data for TIC ID 306510653 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:04:59,286 - INFO - Fetching data for TIC ID: 405425498
+2024-11-25 11:05:00,358 - INFO - TIC ID: 405425498 - RA: 337.517789556234, Dec: -67.8502528290427
+2024-11-25 11:05:26,703 - INFO - Saved observation data for TIC ID 405425498 to CSV.
+2024-11-25 11:05:26,703 - INFO - Found light curve data for TIC ID 405425498, saving filtered observations.
+2024-11-25 11:05:26,705 - INFO - Appended data for TIC ID 405425498 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:05:26,705 - INFO - Fetching data for TIC ID: 441420236
+2024-11-25 11:05:28,174 - INFO - TIC ID: 441420236 - RA: 311.289718192023, Dec: -31.3409004606736
+2024-11-25 11:05:45,514 - INFO - Saved observation data for TIC ID 441420236 to CSV.
+2024-11-25 11:05:45,515 - INFO - Found light curve data for TIC ID 441420236, saving filtered observations.
+2024-11-25 11:05:45,517 - INFO - Appended data for TIC ID 441420236 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:05:45,517 - INFO - Fetching data for TIC ID: 150437346
+2024-11-25 11:05:47,203 - INFO - TIC ID: 150437346 - RA: 97.3207627360668, Dec: -65.3377804188453
+2024-11-25 11:06:49,109 - INFO - Saved observation data for TIC ID 150437346 to CSV.
+2024-11-25 11:06:49,109 - INFO - Found light curve data for TIC ID 150437346, saving filtered observations.
+2024-11-25 11:06:49,113 - INFO - Appended data for TIC ID 150437346 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:06:49,113 - INFO - Fetching data for TIC ID: 278138619
+2024-11-25 11:06:50,516 - INFO - TIC ID: 278138619 - RA: 107.819482351021, Dec: -78.2384050920461
+2024-11-25 11:07:24,537 - INFO - Saved observation data for TIC ID 278138619 to CSV.
+2024-11-25 11:07:24,537 - INFO - Found light curve data for TIC ID 278138619, saving filtered observations.
+2024-11-25 11:07:24,540 - INFO - Appended data for TIC ID 278138619 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:07:24,540 - INFO - Fetching data for TIC ID: 348995212
+2024-11-25 11:07:26,588 - INFO - TIC ID: 348995212 - RA: 107.155878774275, Dec: -64.232944066176
+2024-11-25 11:08:36,141 - INFO - Saved observation data for TIC ID 348995212 to CSV.
+2024-11-25 11:08:36,141 - INFO - Found light curve data for TIC ID 348995212, saving filtered observations.
+2024-11-25 11:08:36,145 - INFO - Appended data for TIC ID 348995212 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:08:36,146 - INFO - Fetching data for TIC ID: 234330672
+2024-11-25 11:08:37,147 - INFO - TIC ID: 234330672 - RA: 35.7502248438109, Dec: -71.4580021730817
+2024-11-25 11:08:50,159 - INFO - Saved observation data for TIC ID 234330672 to CSV.
+2024-11-25 11:08:50,159 - INFO - Found light curve data for TIC ID 234330672, saving filtered observations.
+2024-11-25 11:08:50,161 - INFO - Appended data for TIC ID 234330672 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:08:50,161 - INFO - Fetching data for TIC ID: 39018923
+2024-11-25 11:08:51,161 - INFO - TIC ID: 39018923 - RA: 12.0747938750417, Dec: -68.4393074377361
+2024-11-25 11:09:08,548 - INFO - Saved observation data for TIC ID 39018923 to CSV.
+2024-11-25 11:09:08,549 - INFO - Found light curve data for TIC ID 39018923, saving filtered observations.
+2024-11-25 11:09:08,550 - INFO - Appended data for TIC ID 39018923 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:09:08,550 - INFO - Fetching data for TIC ID: 179580045
+2024-11-25 11:09:42,944 - INFO - TIC ID: 179580045 - RA: 80.6239672494744, Dec: -70.2543960602416
+2024-11-25 11:10:40,314 - INFO - Saved observation data for TIC ID 179580045 to CSV.
+2024-11-25 11:10:40,315 - INFO - Found light curve data for TIC ID 179580045, saving filtered observations.
+2024-11-25 11:10:40,318 - INFO - Appended data for TIC ID 179580045 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:10:40,318 - INFO - Fetching data for TIC ID: 376168473
+2024-11-25 11:10:41,530 - INFO - TIC ID: 376168473 - RA: 310.483667572405, Dec: -38.877972315578
+2024-11-25 11:10:49,928 - INFO - Saved observation data for TIC ID 376168473 to CSV.
+2024-11-25 11:10:49,929 - INFO - Found light curve data for TIC ID 376168473, saving filtered observations.
+2024-11-25 11:10:49,930 - INFO - Appended data for TIC ID 376168473 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:10:49,931 - INFO - Fetching data for TIC ID: 278415929
+2024-11-25 11:10:51,174 - INFO - TIC ID: 278415929 - RA: 117.280487352854, Dec: -80.8936394041764
+2024-11-25 11:11:16,019 - INFO - Saved observation data for TIC ID 278415929 to CSV.
+2024-11-25 11:11:16,019 - INFO - Found light curve data for TIC ID 278415929, saving filtered observations.
+2024-11-25 11:11:16,021 - INFO - Appended data for TIC ID 278415929 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:11:16,021 - INFO - Fetching data for TIC ID: 1989628303
+2024-11-25 11:11:17,350 - INFO - TIC ID: 1989628303 - RA: 308.563404405791, Dec: -48.2747907962471
+2024-11-25 11:11:23,032 - INFO - Saved observation data for TIC ID 1989628303 to CSV.
+2024-11-25 11:11:23,033 - INFO - Found light curve data for TIC ID 1989628303, saving filtered observations.
+2024-11-25 11:11:23,034 - INFO - Appended data for TIC ID 1989628303 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:11:23,034 - INFO - Fetching data for TIC ID: 1990842033
+2024-11-25 11:11:24,507 - INFO - TIC ID: 1990842033 - RA: 310.483667572405, Dec: -38.877972315578
+2024-11-25 11:11:24,583 - INFO - Saved observation data for TIC ID 1990842033 to CSV.
+2024-11-25 11:11:24,583 - INFO - Found light curve data for TIC ID 1990842033, saving filtered observations.
+2024-11-25 11:11:24,585 - INFO - Appended data for TIC ID 1990842033 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:11:24,585 - INFO - Fetching data for TIC ID: 92562123
+2024-11-25 11:11:26,004 - INFO - TIC ID: 92562123 - RA: 315.171741916009, Dec: -35.870999960126
+2024-11-25 11:11:31,010 - INFO - Saved observation data for TIC ID 92562123 to CSV.
+2024-11-25 11:11:31,011 - INFO - Found light curve data for TIC ID 92562123, saving filtered observations.
+2024-11-25 11:11:31,013 - INFO - Appended data for TIC ID 92562123 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:11:31,013 - INFO - Fetching data for TIC ID: 96973930
+2024-11-25 11:11:43,872 - INFO - TIC ID: 96973930 - RA: 295.256434427439, Dec: -27.8592455261041
+2024-11-25 11:11:45,980 - WARNING - NoResultsWarning: Query returned no results.
+2024-11-25 11:11:45,987 - INFO - Saved observation data for TIC ID 96973930 to CSV.
+2024-11-25 11:11:45,987 - INFO - Fetching data for TIC ID: 231077395
+2024-11-25 11:11:59,230 - INFO - TIC ID: 231077395 - RA: 67.6578006094239, Dec: -70.3548401988547
+2024-11-25 11:12:40,832 - INFO - Saved observation data for TIC ID 231077395 to CSV.
+2024-11-25 11:12:40,833 - INFO - Found light curve data for TIC ID 231077395, saving filtered observations.
+2024-11-25 11:12:40,835 - INFO - Appended data for TIC ID 231077395 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:12:40,835 - INFO - Fetching data for TIC ID: 394722182
+2024-11-25 11:12:45,635 - INFO - TIC ID: 394722182 - RA: 20.166315285013, Dec: -86.9799317495544
+2024-11-25 11:13:07,309 - INFO - Saved observation data for TIC ID 394722182 to CSV.
+2024-11-25 11:13:07,309 - INFO - Found light curve data for TIC ID 394722182, saving filtered observations.
+2024-11-25 11:13:07,311 - INFO - Appended data for TIC ID 394722182 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:13:07,311 - INFO - Fetching data for TIC ID: 267093376
+2024-11-25 11:13:10,474 - INFO - TIC ID: 267093376 - RA: 41.0917378157027, Dec: -74.7897722650598
+2024-11-25 11:13:42,839 - INFO - Saved observation data for TIC ID 267093376 to CSV.
+2024-11-25 11:13:42,840 - INFO - Found light curve data for TIC ID 267093376, saving filtered observations.
+2024-11-25 11:13:42,841 - INFO - Appended data for TIC ID 267093376 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:13:42,841 - INFO - Fetching data for TIC ID: 271491157
+2024-11-25 11:13:50,109 - INFO - TIC ID: 271491157 - RA: 299.229776651206, Dec: -35.397149139328
+2024-11-25 11:13:53,632 - INFO - Saved observation data for TIC ID 271491157 to CSV.
+2024-11-25 11:13:53,632 - INFO - Found light curve data for TIC ID 271491157, saving filtered observations.
+2024-11-25 11:13:53,634 - INFO - Appended data for TIC ID 271491157 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:13:53,634 - INFO - Fetching data for TIC ID: 421455387
+2024-11-25 11:14:02,980 - INFO - TIC ID: 421455387 - RA: 296.919652479499, Dec: -32.5758592917222
+2024-11-25 11:14:09,252 - INFO - Saved observation data for TIC ID 421455387 to CSV.
+2024-11-25 11:14:09,253 - INFO - Found light curve data for TIC ID 421455387, saving filtered observations.
+2024-11-25 11:14:09,255 - INFO - Appended data for TIC ID 421455387 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:14:09,255 - INFO - Fetching data for TIC ID: 439444938
+2024-11-25 11:14:14,493 - INFO - TIC ID: 439444938 - RA: 301.540461517929, Dec: -33.6672879261727
+2024-11-25 11:14:19,681 - INFO - Saved observation data for TIC ID 439444938 to CSV.
+2024-11-25 11:14:19,682 - INFO - Found light curve data for TIC ID 439444938, saving filtered observations.
+2024-11-25 11:14:19,683 - INFO - Appended data for TIC ID 439444938 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:14:19,683 - INFO - Fetching data for TIC ID: 143410850
+2024-11-25 11:14:27,204 - INFO - TIC ID: 143410850 - RA: 294.572130949355, Dec: -46.3979977409251
+2024-11-25 11:14:31,667 - INFO - Saved observation data for TIC ID 143410850 to CSV.
+2024-11-25 11:14:31,667 - INFO - Found light curve data for TIC ID 143410850, saving filtered observations.
+2024-11-25 11:14:31,669 - INFO - Appended data for TIC ID 143410850 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:14:31,669 - INFO - Fetching data for TIC ID: 288636342
+2024-11-25 11:14:35,458 - INFO - TIC ID: 288636342 - RA: 279.464488166777, Dec: 78.6111301727184
+2024-11-25 11:15:31,316 - INFO - Saved observation data for TIC ID 288636342 to CSV.
+2024-11-25 11:15:31,317 - INFO - Found light curve data for TIC ID 288636342, saving filtered observations.
+2024-11-25 11:15:31,321 - INFO - Appended data for TIC ID 288636342 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:15:31,321 - INFO - Fetching data for TIC ID: 367630162
+2024-11-25 11:15:33,537 - INFO - TIC ID: 367630162 - RA: 151.615395917982, Dec: 83.0884087369012
+2024-11-25 11:15:48,068 - INFO - Saved observation data for TIC ID 367630162 to CSV.
+2024-11-25 11:15:48,069 - INFO - Found light curve data for TIC ID 367630162, saving filtered observations.
+2024-11-25 11:15:48,071 - INFO - Appended data for TIC ID 367630162 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 11:15:48,071 - INFO - Fetching data for TIC ID: 233617847
+2024-11-25 11:15:50,390 - INFO - TIC ID: 233617847 - RA: 283.794510972545, Dec: 64.5313395041664

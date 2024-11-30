@@ -1,0 +1,9 @@
+2024-11-25 00:36:59,599 - INFO - Known Candidate Metadata fetch initiated.......
+2024-11-25 00:36:59,617 - INFO - Fetching data for TIC ID: 176860064
+2024-11-25 00:37:02,820 - INFO - TIC ID: 176860064 - RA: 354.836679729321, Dec: 45.7198967102681
+2024-11-25 00:37:03,157 - WARNING - InputWarning: Coordinate string is being interpreted as an ICRS coordinate provided in degrees.
+2024-11-25 00:37:25,150 - INFO - Saved observation data for TIC ID 176860064 to CSV.
+2024-11-25 00:37:25,151 - INFO - Found light curve data for TIC ID 176860064, saving filtered observations.
+2024-11-25 00:37:25,151 - INFO - Appended data for TIC ID 176860064 to 'data/true_positive_matched_observations_lc_data.csv'.
+2024-11-25 00:37:25,151 - INFO - Fetching data for TIC ID: 236887394
+2024-11-25 00:37:27,274 - INFO - TIC ID: 236887394 - RA: 303.381740156372, Dec: 65.1620808095522

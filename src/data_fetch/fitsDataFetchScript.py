@@ -28,7 +28,7 @@ logging.info("Data Fetch Initiated......")
 
 # Output CSV for tracking downloaded files
 output_csv = 'data/truePositivesRawData/raw_fits_file_index.csv'
-raw_data_dir = 'data/truePositivesRawData/'
+raw_data_dir = '/run/media/maverick/X10 Pro/exoplanetDataset/truePositivesRaw/'
 lc_dir = os.path.join(raw_data_dir, 'LC/')
 llc_dir = os.path.join(raw_data_dir, 'LLC/')
 dvt_dir = os.path.join(raw_data_dir, 'DVT/')
