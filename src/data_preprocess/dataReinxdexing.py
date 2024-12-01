@@ -1,31 +1,58 @@
 import os
+import shutil
+import logging
 import pandas as pd
 from astropy.io import fits
+
+# Set up logging
+LOG_DIR = "logs"
+os.makedirs(LOG_DIR, exist_ok=True)  # Ensure the logs directory exists
+logging.basicConfig(
+    filename=os.path.join(LOG_DIR, "classification.log"),
+    filemode='a',
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    level=logging.DEBUG
+)
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+console.setFormatter(formatter)
+logging.getLogger('').addHandler(console)
 
 # Define positive and negative dispositions
 positive_dispositions = {'PC', 'CP', 'APC', 'KP'}  # Valid positives
 negative_dispositions = {'EB', 'FP', 'FA', 'IS', 'V', 'O'}  # Negatives
 
-def classify_tic_ids_with_dispositions(fits_dir1, fits_dir2, csv_path, positive_file, negative_file):
+def classify_tic_ids_with_dispositions(fits_dir1, fits_dir2, csv_path, positive_dir, negative_dir, positive_csv, negative_csv):
     """
-    Classify TIC IDs from FITS files based on TOI and EXOFOP dispositions, ensuring unique entries,
-    and count the number of FITS files processed for each category from two directories.
+    Classify TIC IDs from FITS files into positive or negative, move files, and create updated index files.
 
     Parameters:
         fits_dir1 (str): Path to the first directory containing FITS files.
         fits_dir2 (str): Path to the second directory containing FITS files.
         csv_path (str): Path to the CSV file with TIC IDs and dispositions.
-        positive_file (str): Path to save TIC IDs with positive dispositions.
-        negative_file (str): Path to save TIC IDs with negative dispositions.
+        positive_dir (str): Directory to store positive FITS files.
+        negative_dir (str): Directory to store negative FITS files.
+        positive_csv (str): Path to save the positive TIC CSV.
+        negative_csv (str): Path to save the negative TIC CSV.
     """
-    # Load the CSV file and skip the first 4 rows (comments)
-    df = pd.read_csv(csv_path, skiprows=4)
+    logging.info("Starting TIC classification process.")
 
-    positive_tics = set()  # Use sets for uniqueness
-    negative_tics = set()
-    unmatched_tics = []  # Store unmatched TICs with details
-    positive_file_count = 0
-    negative_file_count = 0
+    # Ensure output directories exist
+    os.makedirs(positive_dir, exist_ok=True)
+    os.makedirs(negative_dir, exist_ok=True)
+
+    # Load the CSV file and skip the first 4 rows (comments)
+    try:
+        df = pd.read_csv(csv_path, skiprows=4)
+        logging.info(f"Loaded CSV file: {csv_path}")
+    except Exception as e:
+        logging.error(f"Failed to load CSV file: {e}")
+        return
+
+    # Prepare output DataFrames
+    positive_data = []
+    negative_data = []
 
     # Combine FITS files from both directories
     fits_files = [
@@ -35,6 +62,7 @@ def classify_tic_ids_with_dispositions(fits_dir1, fits_dir2, csv_path, positive_
     ]
 
     total_files = len(fits_files)
+    logging.info(f"Total FITS files to process: {total_files}")
 
     for file_path in fits_files:
         try:
@@ -44,67 +72,67 @@ def classify_tic_ids_with_dispositions(fits_dir1, fits_dir2, csv_path, positive_
                 tic_id = str(header.get('TICID', None))  # Ensure TIC ID is a string
 
                 if tic_id and tic_id in df['TIC'].astype(str).values:
-                    # Fetch the corresponding dispositions
+                    # Fetch the corresponding dispositions and other data
                     row = df.loc[df['TIC'].astype(str) == tic_id].iloc[0]
                     toi_disposition = row['TOI Disposition']
                     exofop_disposition = row['EXOFOP Disposition']
 
-                    # Updated classification logic
-                    if toi_disposition == 'EB' and exofop_disposition == 'APC':
-                        positive_tics.add(tic_id)
-                        positive_file_count += 1
-                    elif toi_disposition == 'EB' and exofop_disposition == 'PC':
-                        positive_tics.add(tic_id)
-                        positive_file_count += 1
+                    # Extract required columns
+                    ra = row['TIC Right Ascension']
+                    dec = row['TIC Declination']
+                    tmag = row['TMag Value']
+                    tmag_unc = row['TMag Uncertainty']
+                    vmag = row['VMag Value']
+                    vmag_unc = row['VMag Uncertainty']
+                    epoch = row['Epoch Value']
+                    epoch_err = row['Epoch Error']
+                    period = row['Orbital Period Value']
+                    duration = row['Transit Duration Value']
+                    depth = row['Transit Depth Value']
+
+                    # Classification logic
+                    if toi_disposition == 'EB' and exofop_disposition in {'APC', 'PC'}:
+                        destination = os.path.join(positive_dir, os.path.basename(file_path))
+                        shutil.copy(file_path, destination)
+                        positive_data.append([tic_id, ra, dec, tmag, tmag_unc, vmag, vmag_unc, epoch, epoch_err, period, duration, depth, destination])
+                        logging.debug(f"TIC {tic_id}: EB with APC/PC -> Positive")
                     elif toi_disposition == 'EB' and exofop_disposition in negative_dispositions:
-                        negative_tics.add(tic_id)
-                        negative_file_count += 1
+                        destination = os.path.join(negative_dir, os.path.basename(file_path))
+                        shutil.copy(file_path, destination)
+                        negative_data.append([tic_id, ra, dec, tmag, tmag_unc, vmag, vmag_unc, epoch, epoch_err, period, duration, depth, destination])
+                        logging.debug(f"TIC {tic_id}: EB with Negative EXOFOP -> Negative")
                     elif toi_disposition == 'PC' and (pd.isna(exofop_disposition) or exofop_disposition in positive_dispositions):
-                        positive_tics.add(tic_id)
-                        positive_file_count += 1
+                        destination = os.path.join(positive_dir, os.path.basename(file_path))
+                        shutil.copy(file_path, destination)
+                        positive_data.append([tic_id, ra, dec, tmag, tmag_unc, vmag, vmag_unc, epoch, epoch_err, period, duration, depth, destination])
+                        logging.debug(f"TIC {tic_id}: PC with Positive EXOFOP -> Positive")
                     elif exofop_disposition in negative_dispositions:
-                        negative_tics.add(tic_id)
-                        negative_file_count += 1
-                    elif toi_disposition in positive_dispositions:
-                        positive_tics.add(tic_id)
-                        positive_file_count += 1
+                        destination = os.path.join(negative_dir, os.path.basename(file_path))
+                        shutil.copy(file_path, destination)
+                        negative_data.append([tic_id, ra, dec, tmag, tmag_unc, vmag, vmag_unc, epoch, epoch_err, period, duration, depth, destination])
+                        logging.debug(f"TIC {tic_id}: Negative EXOFOP -> Negative")
                     else:
-                        unmatched_tics.append({
-                            "TIC_ID": tic_id,
-                            "TOI_Disposition": toi_disposition,
-                            "EXOFOP_Disposition": exofop_disposition
-                        })
+                        logging.warning(f"TIC {tic_id}: Unmatched")
                 else:
-                    print(f"TIC ID {tic_id} not found in CSV.")
+                    logging.warning(f"TIC ID {tic_id} not found in CSV.")
         except Exception as e:
-            print(f"Error reading file {file_path}: {e}")
+            logging.error(f"Error reading FITS file {file_path}: {e}")
 
-    # Save unique results to files
-    pd.DataFrame(sorted(positive_tics), columns=['TIC']).to_csv(positive_file, index=False, header=False)
-    pd.DataFrame(sorted(negative_tics), columns=['TIC']).to_csv(negative_file, index=False, header=False)
+    # Write results to CSV
+    positive_columns = ['TIC_ID', 'RA', 'Dec', 'TMag', 'TMag_Unc', 'VMag', 'VMag_Unc', 'Epoch', 'Epoch_Err', 'Period', 'Duration', 'Depth', 'FITS_File_Path']
+    pd.DataFrame(positive_data, columns=positive_columns).to_csv(positive_csv, index=False)
+    pd.DataFrame(negative_data, columns=positive_columns).to_csv(negative_csv, index=False)
 
-    # Print unmatched TICs
-    if unmatched_tics:
-        print(f"\nUnmatched TICs ({len(unmatched_tics)}):")
-        for tic in unmatched_tics:
-            print(f"TIC ID: {tic['TIC_ID']}, TOI Disposition: {tic['TOI_Disposition']}, EXOFOP Disposition: {tic['EXOFOP_Disposition']}")
-    else:
-        print("\nAll TICs matched classification criteria.")
-
-    # Print the statistics
-    print(f"\nTotal FITS files processed: {total_files}")
-    print(f"Positive TICs count: {len(positive_tics)}")
-    print(f"Total FITS files for positive TICs: {positive_file_count}")
-    print(f"Negative TICs count: {len(negative_tics)}")
-    print(f"Total FITS files for negative TICs: {negative_file_count}")
-    print(f"Positive TICs saved to {positive_file}")
-    print(f"Negative TICs saved to {negative_file}")
+    logging.info(f"Positive TICs saved to {positive_csv}")
+    logging.info(f"Negative TICs saved to {negative_csv}")
 
 # Example usage
 fits_directory1 = "/run/media/maverick/X10 Pro/exoplanetDataset/truePositivesRaw/LC"  # Replace with your first FITS directory path
 fits_directory2 = "/run/media/maverick/X10 Pro/exoplanetDataset/falsePositivesRaw/LC"  # Replace with your second FITS directory path
 csv_file_path = "data/csv-file-toi-catalog.csv"  # Replace with your CSV file path
-positive_output_file = "data/positive_tics.txt"  # File to save positive TICs
-negative_output_file = "data/negative_tics.txt"  # File to save negative TICs
+positive_directory = "/run/media/maverick/X10 Pro/exoplanetDatasetReindexedFinal/positive"  # Directory to store positive FITS files
+negative_directory = "/run/media/maverick/X10 Pro/exoplanetDatasetReindexedFinal/negative"  # Directory to store negative FITS files
+positive_csv_file = "data/positive_tics.csv"  # CSV to save positive TIC data
+negative_csv_file = "data/negative_tics.csv"  # CSV to save negative TIC data
 
-classify_tic_ids_with_dispositions(fits_directory1, fits_directory2, csv_file_path, positive_output_file, negative_output_file)
+classify_tic_ids_with_dispositions(fits_directory1, fits_directory2, csv_file_path, positive_directory, negative_directory, positive_csv_file, negative_csv_file)
