@@ -24,18 +24,6 @@ positive_dispositions = {'PC', 'CP', 'APC', 'KP'}  # Valid positives
 negative_dispositions = {'EB', 'FP', 'FA', 'IS', 'V', 'O'}  # Negatives
 
 def classify_tic_ids_with_dispositions(fits_dir1, fits_dir2, csv_path, positive_dir, negative_dir, positive_csv, negative_csv):
-    """
-    Classify TIC IDs from FITS files into positive or negative, move files, and create updated index files.
-
-    Parameters:
-        fits_dir1 (str): Path to the first directory containing FITS files.
-        fits_dir2 (str): Path to the second directory containing FITS files.
-        csv_path (str): Path to the CSV file with TIC IDs and dispositions.
-        positive_dir (str): Directory to store positive FITS files.
-        negative_dir (str): Directory to store negative FITS files.
-        positive_csv (str): Path to save the positive TIC CSV.
-        negative_csv (str): Path to save the negative TIC CSV.
-    """
     logging.info("Starting TIC classification process.")
 
     # Ensure output directories exist

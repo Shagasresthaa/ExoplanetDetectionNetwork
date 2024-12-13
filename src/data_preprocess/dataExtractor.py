@@ -24,13 +24,6 @@ console.setFormatter(formatter)
 logging.getLogger('').addHandler(console)
 
 def extract_fits_data(index_csv, extract_folder):
-    """
-    Extract light curve data, aperture images, and plots from FITS files, and update the index CSV.
-
-    Parameters:
-        index_csv (str): Path to the index CSV containing metadata about the FITS files.
-        extract_folder (str): Target folder for extracted data.
-    """
     logging.info(f"Starting extraction process using index: {index_csv}")
 
     # Ensure target directories exist
